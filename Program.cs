@@ -161,6 +161,7 @@ namespace C_Sharp_Lessons
             // Math Class Examples <------------------------
 
             double t = 3.5;
+            double p = 5;
 
             double pow = Math.Pow(t, 2); // Math.Pow (Exponents) -  (first value is base number, second is exponent)
             Console.WriteLine(pow); // returns 12.25
@@ -179,6 +180,13 @@ namespace C_Sharp_Lessons
 
             double floor = Math.Floor(t); // Math.Floor - Rounds number Down no matter what  the decimal is 
             Console.WriteLine(floor); // returns 3
+
+            double max = Math.Max(t, p); // Math.Max - Returns highest number in list of numbers
+            Console.WriteLine(max);// returns 5
+            
+            double min = Math.Min(t, p); // Math.Min - returns lowest number in list of numbers
+            Console.WriteLine(min);//  returns 3.5
+
 
         }
     }  
