@@ -69,6 +69,15 @@ namespace C_Sharp_Lessons
             Console.WriteLine(userName);
 
 
+            //Constants Lesson ( Using keyword const)
+            //Constants are immutable values which are known at compile time and
+            //do not change during the life of the program
+
+            const double pi = 3.14159;
+            // pi = 420; // DOES NOT WORK BECAUSE pi IS CONST IN ABOVE
+            // VARIABLE
+            
+            Console.WriteLine(pi);
 
 
 
