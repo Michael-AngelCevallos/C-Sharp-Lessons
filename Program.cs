@@ -11,9 +11,9 @@ namespace C_Sharp_Lessons
             
             
             // Console Input 
-            Console.WriteLine("How Old Are You?");
-            string input = Console.ReadLine();
-            Console.WriteLine($"You are {input} years old!");
+            // Console.WriteLine("How Old Are You?");
+            // string input = Console.ReadLine();
+            // Console.WriteLine($"You are {input} years old!");
             
             
             // How To Format Output
@@ -30,9 +30,35 @@ namespace C_Sharp_Lessons
 
             Console.WriteLine("Mike\nCevallos"); // returns Mike (new line) Cevallos
             
+            // Variables in C#
+            // 2 steps Declaration and Initialization
             
+            //integers
+            int x; // this is declaration of a variable
+            x = 123; // initialization of the variable
+            
+            //together would be 
+            int y = 321;
+            
+            // Adding using variable
+            int z = x + y;
 
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
 
+            // Display Message with String
+
+            int age = 29; // Integer(int) -Whole Number
+            Console.WriteLine("My age is " + age);
+
+            double height = 68.5; // Double(decimal number) - Decimal Number
+            Console.WriteLine("My height is " + height + "in");
+
+            bool on = true; // Boolean(bool)- True/False
+            Console.WriteLine("Is that Light On? " + on);
+
+ 
 
 
 
