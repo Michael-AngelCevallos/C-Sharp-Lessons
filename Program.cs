@@ -16,15 +16,19 @@ namespace C_Sharp_Lessons
             // Console.WriteLine($"You are {input} years old!");
 
 
-            // How To Format Output
+            // How To Format Output <----------------------------------------------------------------------------------
             Console.Write("Hey"); // Console.Write will not hit enter key after declaration
-            Console.WriteLine(
-                "Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
+            Console.WriteLine("Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
 
-            // Auto generate Console.Writeline ( c + w + tab)
+            
+            
+            
+            // Auto generate Console.Writeline ( c + w + tab)<---------------------------------------------------------
             Console.WriteLine();
 
-            // Console Escape Sequences 
+            
+            
+            // Console Escape Sequences <-------------------------------------------------------------------------------
             Console.WriteLine("\tMike Cevallos"); // returns Mike Cevallos, Tabbed in (\t)
 
             Console.WriteLine("Mike\bCevallos"); // returns MikCevallos, uses backspace(\b)
@@ -48,7 +52,7 @@ namespace C_Sharp_Lessons
             Console.WriteLine(y);
             Console.WriteLine(z);
 
-            // Display Message with String
+            // Display Message with String <---------------------------------------------------------------------------
 
             int age = 29; // Integer(int) -Whole Number
             Console.WriteLine("My age is " + age);
@@ -70,7 +74,7 @@ namespace C_Sharp_Lessons
             Console.WriteLine(userName);
 
 
-            //Constants- Lesson ( Using keyword const)
+            //Constants- Lesson ( Using keyword const) <---------------------------------------------------------------
             //          Constants are immutable values which are known at compile time and
             //          do not change during the life of the program
 
@@ -80,7 +84,7 @@ namespace C_Sharp_Lessons
 
             Console.WriteLine(pi);
 
-            // TYPE CASTING - Converting a Value to a Different Data Type
+            // TYPE CASTING - Converting a Value to a Different Data Type <---------------------------------------------
             //                Useful when we accept User Input
             //                Different Data types can do different things  
 
@@ -120,7 +124,7 @@ namespace C_Sharp_Lessons
             
             
             
-            // Basic Arithmetic Lesson 
+            // Basic Arithmetic Lesson <--------------------------------------------------------------------------------
 
             int friends = 5;
             friends = friends + 1; // returns 6
@@ -158,7 +162,7 @@ namespace C_Sharp_Lessons
             int remainder = 25 % 2;
             Console.WriteLine(remainder);
             
-            // Math Class Examples <------------------------
+            // Math Class Examples <-------------------------------------------------------------------------------
 
             double t = 3.5;
             double p = 5;
@@ -188,6 +192,10 @@ namespace C_Sharp_Lessons
             Console.WriteLine(min);//  returns 3.5
 
 
+            // Generate Random NUMBERS <-------------------------------------------------------------------------------
+            
+            
+            
         }
     }  
         }
