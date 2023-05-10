@@ -194,8 +194,34 @@ namespace C_Sharp_Lessons
 
             // Generate Random NUMBERS <-------------------------------------------------------------------------------
             
+            // intiate Random Object
+            Random random = new Random();
+
+            int dice = random.Next(1,7); // Sets Range between 1 and 6
+            Console.WriteLine(dice);
             
             
+            int highDice = random.Next(1, 7) + 100; // Returns number between 101 -106
+            Console.WriteLine(highDice);
+            
+            // NextDouble - returns decimal number
+
+            double nextDouble = random.NextDouble();
+            Console.WriteLine(nextDouble); // returns decimal
+            
+            // Roll Three Dice 
+
+            int dice1 = random.Next(1,7);
+            int dice2 = random.Next(1,7);
+            int dice3 = random.Next(1,7);
+            int all = dice1 + dice2 + dice3;
+
+            Console.WriteLine("Your first roll is " + dice1);
+            Console.WriteLine("Your Second Roll is " + dice2);
+            Console.WriteLine("Your Third and Final Roll is " + dice3);
+            Console.WriteLine("Your Total Number is " + all);
+
+
         }
     }  
         }
