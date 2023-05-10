@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Channels;
 
 namespace C_Sharp_Lessons
 {
@@ -296,20 +297,34 @@ namespace C_Sharp_Lessons
             Console.WriteLine("Please enter your age: ");
             int age2 = Convert.ToInt32(Console.ReadLine());
 
-            if (age2 >= 18)
-            {
-                Console.WriteLine("Congratulations! Your An Adult");
-            }else if(age2 < 0) 
+            if (age2 < 0)
             {
                 Console.WriteLine("You Haven't Been Born Yet");
+            }else if(age2 >= 18) 
+            {
+                Console.WriteLine("Congratulations! Your An Adult");
             }
             else
             {
                 Console.WriteLine("Get back in line, your Too Young!");
             }
-            
-            
 
+            Console.WriteLine("Please enter your name: ");
+            String name1 = Console.ReadLine();
+
+
+            if (name == "") // returned an empty string
+            {
+                Console.WriteLine("You Didn't Enter anything!");
+            }
+            else
+            {
+                Console.WriteLine("Hello " + name1 + "!");
+            }
+            
+            
+            
+            
         }
     }  
         }
