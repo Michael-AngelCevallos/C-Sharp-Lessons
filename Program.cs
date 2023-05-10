@@ -103,8 +103,9 @@ namespace C_Sharp_Lessons
             char h = Convert.ToChar(g);
             Console.WriteLine(h);
 
-
-
+            String i = "true";
+            bool j = Convert.ToBoolean(i);
+            Console.WriteLine(j);
 
         }
     }  
