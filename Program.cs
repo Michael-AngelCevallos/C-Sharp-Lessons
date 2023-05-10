@@ -160,15 +160,26 @@ namespace C_Sharp_Lessons
             
             // Math Class Examples <------------------------
 
-            double t = 3;
+            double t = 3.5;
 
-            double pow = Math.Pow(t, 2); // Exponent -  (first value is base number, second is exponent)
-            Console.WriteLine(pow);
+            double pow = Math.Pow(t, 2); // Math.Pow (Exponents) -  (first value is base number, second is exponent)
+            Console.WriteLine(pow); // returns 12.25
 
-            double sqrt = Math.Sqrt(t); // Sqrt - Returns sqrt of number
-            Console.WriteLine(sqrt);
-            
-            double 
+            double sqrt = Math.Sqrt(t); // Math.Sqrt - Returns sqrt of number
+            Console.WriteLine(sqrt); // returns 1.870828
+
+            double abs = Math.Abs(t); // Math.Abs (Absolute Value) - returns positive version of number
+            Console.WriteLine(abs); // returns 3
+
+            double round = Math.Round(t); // Math.Round -  Rounds Number( Up or Down Based on decimal)
+            Console.WriteLine(round); // returns 4
+
+            double ceil = Math.Ceiling(t); // Math.Ceiling - Rounds Number Up No matter What the decimal is
+            Console.WriteLine(ceil); // returns 4
+
+            double floor = Math.Floor(t); // Math.Floor - Rounds number Down no matter what  the decimal is 
+            Console.WriteLine(floor); // returns 3
+
         }
     }  
         }
