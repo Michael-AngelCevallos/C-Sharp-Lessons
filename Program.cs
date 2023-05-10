@@ -157,13 +157,18 @@ namespace C_Sharp_Lessons
             // Module Operator (%) // lets you know if your number is whole or decimal number
             int remainder = 25 % 2;
             Console.WriteLine(remainder);
+            
+            // Math Class Examples <------------------------
 
+            double t = 3;
 
+            double pow = Math.Pow(t, 2); // Exponent -  (first value is base number, second is exponent)
+            Console.WriteLine(pow);
 
-
-
-
-
+            double sqrt = Math.Sqrt(t); // Sqrt - Returns sqrt of number
+            Console.WriteLine(sqrt);
+            
+            double 
         }
     }  
         }
