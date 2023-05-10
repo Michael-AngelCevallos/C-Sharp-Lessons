@@ -110,26 +110,55 @@ namespace C_Sharp_Lessons
 
 
             //Create Variables to hold and store values 
-            Console.WriteLine("What is Your First Name?"); // Asks user in terminal
-            String name1 = Console.ReadLine(); // takes in users input for variable name1
-            
-            Console.WriteLine("How old are you?"); // Asks user in terminal
-            int age1 = Convert.ToInt32(Console.ReadLine()); 
-            
-            Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
+            // Console.WriteLine("What is Your First Name?"); // Asks user in terminal
+            // String name1 = Console.ReadLine(); // takes in users input for variable name1
+            //
+            // Console.WriteLine("How old are you?"); // Asks user in terminal
+            // int age1 = Convert.ToInt32(Console.ReadLine()); 
+            //
+            // Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
             
             
             
             // Basic Arithmetic Lesson 
+
+            int friends = 5;
+            friends = friends + 1; // returns 6
+            // friends = friends + 2;// returns 8
+            
+            // += shortcut (same as above but shorter version)
+            friends += 2; // returns 8
+            Console.WriteLine(friends);
             
             
+            
+            // Increment/Decrement examples
+
+            int friends2 = 5;
+            
+            //these all do the same thing
+            // friends2 = friends2 + 1;
+            // friends2 += 1;
+            friends2 ++;
+            
+            Console.WriteLine(friends2);
+            
+            //Multiplication Example
+
+            int friends3 = 5;
+            // friends3 = friends3 * 2; // returns 10
+            friends3 *= 2; // return s 10
+           
+            
+            Console.WriteLine(friends3);
 
 
 
 
 
 
-    }
+
+        }
     }  
         }
         
