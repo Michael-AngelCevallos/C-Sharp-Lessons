@@ -119,6 +119,10 @@ namespace C_Sharp_Lessons
             Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
             
             
+            
+            // Basic Arithmetic Lesson 
+            
+            
 
 
 
