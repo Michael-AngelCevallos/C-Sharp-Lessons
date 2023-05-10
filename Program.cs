@@ -114,7 +114,7 @@ namespace C_Sharp_Lessons
             String name1 = Console.ReadLine(); // takes in users input for variable name1
             
             Console.WriteLine("How old are you?"); // Asks user in terminal
-            String age1 = Console.ReadLine(); 
+            int age1 = Convert.ToInt32(Console.ReadLine()); 
             
             Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
             
