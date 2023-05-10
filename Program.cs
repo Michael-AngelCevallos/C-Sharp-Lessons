@@ -58,7 +58,16 @@ namespace C_Sharp_Lessons
             bool on = true; // Boolean(bool)- True/False
             Console.WriteLine("Is that Light On? " + on);
 
- 
+            char symbol = '@'; // Character(char)- Displays any ONE character, must be wrapped in SINGLE QUOTE
+            Console.WriteLine("My Email is michaelcevallos94" + symbol + "yahoo.com");
+
+            String name = "YO My Name is Mike";// String(String)- used for sentences, MUST USE DOUBLE QUOTES IN C#
+            Console.WriteLine(name);
+            
+            // ADD two variable together
+            String userName = symbol + name;
+            Console.WriteLine(userName);
+
 
 
 
