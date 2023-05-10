@@ -140,17 +140,23 @@ namespace C_Sharp_Lessons
             // friends2 = friends2 + 1;
             // friends2 += 1;
             friends2 ++;
-            
             Console.WriteLine(friends2);
             
             //Multiplication Example
-
             int friends3 = 5;
             // friends3 = friends3 * 2; // returns 10
             friends3 *= 2; // return s 10
-           
-            
             Console.WriteLine(friends3);
+            
+            //Division Example
+            int friends4 = 6;
+            // friends4 = friends4 / 2;
+            friends4 /= 2;
+            Console.WriteLine(friends4);
+            
+            // Module Operator (%) // lets you know if your number is whole or decimal number
+            int remainder = 25 % 2;
+            Console.WriteLine(remainder);
 
 
 
