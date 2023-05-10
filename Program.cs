@@ -90,7 +90,20 @@ namespace C_Sharp_Lessons
             //display data type (.GetType())
             Console.WriteLine(a.GetType());
             Console.WriteLine(b.GetType());
-            
+
+            int c = 123;
+            double d = Convert.ToDouble(c);
+            Console.WriteLine(d.GetType());// returns double
+
+            int e = 321;
+            String f = Convert.ToString(e);
+            Console.WriteLine(f);
+
+            String g = "$";
+            char h = Convert.ToChar(g);
+            Console.WriteLine(h);
+
+
 
 
         }
