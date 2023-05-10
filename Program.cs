@@ -224,18 +224,60 @@ namespace C_Sharp_Lessons
 
 
             // Hypotenuse Calculator <---------------------------------------------------------------------------------
-            Console.WriteLine("Enter Side A: ");
-            double sideA = (Convert.ToDouble(Console.ReadLine()));
+            // Console.WriteLine("Enter Side A: ");
+            // double sideA = (Convert.ToDouble(Console.ReadLine()));
+            //
+            // Console.WriteLine("Enter Side B: ");
+            // double sideB = (Convert.ToDouble(Console.ReadLine()));
+            //
+            //
+            // double sideC = Math.Sqrt(sideA * sideA) + (sideB + sideB);
+            //
+            // Console.WriteLine("Your Hypotenuse is: " + sideC + "in"); // returns 40
 
-            Console.WriteLine("Enter Side B: ");
-            double sideB = (Convert.ToDouble(Console.ReadLine()));
+            
+            
+            
+            
+            
+            
+            // String Methods <========================================================================================
 
+            String fullName = "Mike Cevallos";
 
-            double sideC = Math.Sqrt(sideA * sideA) + (sideB + sideB);
+            
+            String upperCase = fullName.ToUpper();// ToUpper() - returns all letters UPPER-CASED
+            Console.WriteLine(upperCase);
 
-            Console.WriteLine("Your Hypotenuse is: " + sideC + "in"); // returns 40
+            
+            String lowerCase = fullName.ToLower();// ToLower() - returns all letters in string lower-cased
+            Console.WriteLine(lowerCase);
 
-    }
+            Console.WriteLine(fullName);
+
+            
+            // .Replace (Replaces an old value within string with new)
+            String phoneNumber = "123-456-7899";
+
+            phoneNumber = phoneNumber.Replace("-", ""); // Replaces an old value within string with new
+            Console.WriteLine(phoneNumber); // returns 1234567899
+            
+            //.Insert () (inserts into a string( uses 2 parameters))
+            String userName1 = fullName.Insert(0, "@");
+            Console.WriteLine(userName1); // returns @Mike Cevallos
+            
+            
+            //.Length () displays length of string( including spaces)
+            Console.WriteLine(userName1.Length); // returns 14
+            
+            // SubStrings ( returns parts of string( first num in param is where to start, second is the length of that string)
+            String firstName = fullName.Substring(0, 4); // return Mike
+            String lastName = fullName.Substring(5, 8);// returns Cevallos
+
+            Console.WriteLine(firstName);
+            Console.WriteLine(lastName);
+
+        }
     }  
         }
         
