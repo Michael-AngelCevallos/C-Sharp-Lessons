@@ -8,38 +8,39 @@ namespace C_Sharp_Lessons
         {
             // Console Log use Console.WriteLine()
             Console.WriteLine("I like pizza");
-            
-            
+
+
             // Console Input 
             // Console.WriteLine("How Old Are You?");
             // string input = Console.ReadLine();
             // Console.WriteLine($"You are {input} years old!");
-            
-            
+
+
             // How To Format Output
             Console.Write("Hey"); // Console.Write will not hit enter key after declaration
-            Console.WriteLine("Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
-            
+            Console.WriteLine(
+                "Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
+
             // Auto generate Console.Writeline ( c + w + tab)
             Console.WriteLine();
-            
+
             // Console Escape Sequences 
             Console.WriteLine("\tMike Cevallos"); // returns Mike Cevallos, Tabbed in (\t)
 
             Console.WriteLine("Mike\bCevallos"); // returns MikCevallos, uses backspace(\b)
 
             Console.WriteLine("Mike\nCevallos"); // returns Mike (new line) Cevallos
-            
+
             // Variables in C#
             // 2 steps Declaration and Initialization
-            
+
             //integers
             int x; // this is declaration of a variable
             x = 123; // initialization of the variable
-            
+
             //together would be 
             int y = 321;
-            
+
             // Adding using variable
             int z = x + y;
 
@@ -61,9 +62,9 @@ namespace C_Sharp_Lessons
             char symbol = '@'; // Character(char)- Displays any ONE character, must be wrapped in SINGLE QUOTE
             Console.WriteLine("My Email is michaelcevallos94" + symbol + "yahoo.com");
 
-            String name = "YO My Name is Mike";// String(String)- used for sentences, MUST USE DOUBLE QUOTES IN C#
+            String name = "YO My Name is Mike"; // String(String)- used for sentences, MUST USE DOUBLE QUOTES IN C#
             Console.WriteLine(name);
-            
+
             // ADD two variable together
             String userName = symbol + name;
             Console.WriteLine(userName);
@@ -76,9 +77,9 @@ namespace C_Sharp_Lessons
             const double pi = 3.14159;
             // pi = 420; // DOES NOT WORK BECAUSE pi IS CONST IN ABOVE
             // VARIABLE
-            
+
             Console.WriteLine(pi);
-            
+
             // TYPE CASTING - Converting a Value to a Different Data Type
             //                Useful when we accept User Input
             //                Different Data types can do different things  
@@ -86,14 +87,14 @@ namespace C_Sharp_Lessons
             double a = 2.34;
             int b = Convert.ToInt32(a); // Convert.ToInt32() - is a method we use to convert double to int
             Console.WriteLine(b);
-            
+
             //display data type (.GetType())
             Console.WriteLine(a.GetType());
             Console.WriteLine(b.GetType());
 
             int c = 123;
             double d = Convert.ToDouble(c);
-            Console.WriteLine(d.GetType());// returns double
+            Console.WriteLine(d.GetType()); // returns double
 
             int e = 321;
             String f = Convert.ToString(e);
@@ -107,7 +108,24 @@ namespace C_Sharp_Lessons
             bool j = Convert.ToBoolean(i);
             Console.WriteLine(j);
 
-        }
+
+            //Create Variables to hold and store values 
+            Console.WriteLine("What is Your First Name?"); // Asks user in terminal
+            String name1 = Console.ReadLine(); // takes in users input for variable name1
+            
+            Console.WriteLine("How old are you?"); // Asks user in terminal
+            String age1 = Console.ReadLine(); 
+            
+            Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
+            
+            
+
+
+
+
+
+
+    }
     }  
         }
         
