@@ -69,16 +69,28 @@ namespace C_Sharp_Lessons
             Console.WriteLine(userName);
 
 
-            //Constants Lesson ( Using keyword const)
-            //Constants are immutable values which are known at compile time and
-            //do not change during the life of the program
+            //Constants- Lesson ( Using keyword const)
+            //          Constants are immutable values which are known at compile time and
+            //          do not change during the life of the program
 
             const double pi = 3.14159;
             // pi = 420; // DOES NOT WORK BECAUSE pi IS CONST IN ABOVE
             // VARIABLE
             
             Console.WriteLine(pi);
+            
+            // TYPE CASTING - Converting a Value to a Different Data Type
+            //                Useful when we accept User Input
+            //                Different Data types can do different things  
 
+            double a = 2.34;
+            int b = Convert.ToInt32(a); // Convert.ToInt32() - is a method we use to convert double to int
+            Console.WriteLine(b);
+            
+            //display data type (.GetType())
+            Console.WriteLine(a.GetType());
+            Console.WriteLine(b.GetType());
+            
 
 
         }
