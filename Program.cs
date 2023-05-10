@@ -18,16 +18,17 @@ namespace C_Sharp_Lessons
 
             // How To Format Output <----------------------------------------------------------------------------------
             Console.Write("Hey"); // Console.Write will not hit enter key after declaration
-            Console.WriteLine("Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
+            Console.WriteLine(
+                "Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
 
-            
-            
-            
+
+
+
             // Auto generate Console.Writeline ( c + w + tab)<---------------------------------------------------------
             Console.WriteLine();
 
-            
-            
+
+
             // Console Escape Sequences <-------------------------------------------------------------------------------
             Console.WriteLine("\tMike Cevallos"); // returns Mike Cevallos, Tabbed in (\t)
 
@@ -121,47 +122,47 @@ namespace C_Sharp_Lessons
             // int age1 = Convert.ToInt32(Console.ReadLine()); 
             //
             // Console.WriteLine("Hello my name is " + name1 + " ,and I am " + age1 + " years old."); // Returns Hello {users input}
-            
-            
-            
+
+
+
             // Basic Arithmetic Lesson <--------------------------------------------------------------------------------
 
             int friends = 5;
             friends = friends + 1; // returns 6
             // friends = friends + 2;// returns 8
-            
+
             // += shortcut (same as above but shorter version)
             friends += 2; // returns 8
             Console.WriteLine(friends);
-            
-            
-            
+
+
+
             // Increment/Decrement examples
 
             int friends2 = 5;
-            
+
             //these all do the same thing
             // friends2 = friends2 + 1;
             // friends2 += 1;
-            friends2 ++;
+            friends2++;
             Console.WriteLine(friends2);
-            
+
             //Multiplication Example
             int friends3 = 5;
             // friends3 = friends3 * 2; // returns 10
             friends3 *= 2; // return s 10
             Console.WriteLine(friends3);
-            
+
             //Division Example
             int friends4 = 6;
             // friends4 = friends4 / 2;
             friends4 /= 2;
             Console.WriteLine(friends4);
-            
+
             // Module Operator (%) // lets you know if your number is whole or decimal number
             int remainder = 25 % 2;
             Console.WriteLine(remainder);
-            
+
             // Math Class Examples <-------------------------------------------------------------------------------
 
             double t = 3.5;
@@ -186,34 +187,34 @@ namespace C_Sharp_Lessons
             Console.WriteLine(floor); // returns 3
 
             double max = Math.Max(t, p); // Math.Max - Returns highest number in list of numbers
-            Console.WriteLine(max);// returns 5
-            
+            Console.WriteLine(max); // returns 5
+
             double min = Math.Min(t, p); // Math.Min - returns lowest number in list of numbers
-            Console.WriteLine(min);//  returns 3.5
+            Console.WriteLine(min); //  returns 3.5
 
 
             // Generate Random NUMBERS <-------------------------------------------------------------------------------
-            
+
             // intiate Random Object
             Random random = new Random();
 
-            int dice = random.Next(1,7); // Sets Range between 1 and 6
+            int dice = random.Next(1, 7); // Sets Range between 1 and 6
             Console.WriteLine(dice);
-            
-            
+
+
             int highDice = random.Next(1, 7) + 100; // Returns number between 101 -106
             Console.WriteLine(highDice);
-            
+
             // NextDouble - returns decimal number
 
             double nextDouble = random.NextDouble();
             Console.WriteLine(nextDouble); // returns decimal
-            
+
             // Roll Three Dice 
 
-            int dice1 = random.Next(1,7);
-            int dice2 = random.Next(1,7);
-            int dice3 = random.Next(1,7);
+            int dice1 = random.Next(1, 7);
+            int dice2 = random.Next(1, 7);
+            int dice3 = random.Next(1, 7);
             int all = dice1 + dice2 + dice3;
 
             Console.WriteLine("Your first roll is " + dice1);
@@ -222,7 +223,19 @@ namespace C_Sharp_Lessons
             Console.WriteLine("Your Total Number is " + all);
 
 
-        }
+            // Hypotenuse Calculator <---------------------------------------------------------------------------------
+            Console.WriteLine("Enter Side A: ");
+            double sideA = (Convert.ToDouble(Console.ReadLine()));
+
+            Console.WriteLine("Enter Side B: ");
+            double sideB = (Convert.ToDouble(Console.ReadLine()));
+
+
+            double sideC = Math.Sqrt(sideA * sideA) + (sideB + sideB);
+
+            Console.WriteLine("Your Hypotenuse is: " + sideC + "in"); // returns 40
+
+    }
     }  
         }
         
