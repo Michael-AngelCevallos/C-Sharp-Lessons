@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Threading.Channels;
 
 namespace C_Sharp_Lessons
@@ -324,7 +325,20 @@ namespace C_Sharp_Lessons
             
             
             
+            // SWITCH Statements =======================================================================================
             
+            Console.WriteLine("What day is today?");
+            String day = Console.ReadLine();
+
+            switch (day)
+            {
+                case "Monday":
+                    Console.WriteLine("IT's Mad Monday's!");
+                    break;
+                case "Tuesday":
+                    Console.WriteLine("IT's Taco Tuesday!");
+                    
+            }
         }
     }  
         }
