@@ -324,8 +324,8 @@ namespace C_Sharp_Lessons
             // }
             //
             
-            
-            // SWITCH Statements =======================================================================================
+            //==========================================================================================================
+            // SWITCH Statements - an efficient alternative to many if else statemenets 
             
             Console.WriteLine("What day is today?");
             String day = Console.ReadLine();
@@ -354,6 +354,36 @@ namespace C_Sharp_Lessons
                     Console.WriteLine("IT's Sunday! Get Ready For Church, BBQ's, AND FOOTBALL!");
                     break;
             }
+
+            
+            
+            // If Statement Equivalent of above switch statement
+            // if (day == "Monday")
+            // {
+            //     Console.WriteLine("It's Monday");
+            // } 
+            // else if (day == "Tuesday") {
+            //     Console.WriteLine("It's Tuesday!");
+            //
+            // } 
+            // else if (day == "Wednesday") {
+            //     Console.WriteLine("It's Wednesday!");
+            //
+            // }
+            // else if (day == "Thursday") {
+            //     Console.WriteLine("It's Thursday");
+            //
+            // } 
+            // else if (day == "Friday") {
+            //     Console.WriteLine("It's Friday");
+            // }
+            
+            
+            
+            
+            
+            
+            
         }
     }  
         }
