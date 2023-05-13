@@ -282,47 +282,47 @@ namespace C_Sharp_Lessons
             
             //IF STATEMENTS <==========================================================================================================
             
-            Console.WriteLine("Please enter your age: ");
-            int age1 = Convert.ToInt32(Console.ReadLine());
-
-            if (age1 >= 18)
-            {
-                Console.WriteLine("Congratulations! Your An Adult");
-            }
-            else
-            {
-                Console.WriteLine("Get back in line, your Too Young!");
-            }
-
-            //With Else If Statement
-            Console.WriteLine("Please enter your age: ");
-            int age2 = Convert.ToInt32(Console.ReadLine());
-
-            if (age2 < 0)
-            {
-                Console.WriteLine("You Haven't Been Born Yet");
-            }else if(age2 >= 18) 
-            {
-                Console.WriteLine("Congratulations! Your An Adult");
-            }
-            else
-            {
-                Console.WriteLine("Get back in line, your Too Young!");
-            }
-
-            Console.WriteLine("Please enter your name: ");
-            String name1 = Console.ReadLine();
-
-
-            if (name == "") // returned an empty string
-            {
-                Console.WriteLine("You Didn't Enter anything!");
-            }
-            else
-            {
-                Console.WriteLine("Hello " + name1 + "!");
-            }
-            
+            // Console.WriteLine("Please enter your age: ");
+            // int age1 = Convert.ToInt32(Console.ReadLine());
+            //
+            // if (age1 >= 18)
+            // {
+            //     Console.WriteLine("Congratulations! Your An Adult");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Get back in line, your Too Young!");
+            // }
+            //
+            // //With Else If Statement
+            // Console.WriteLine("Please enter your age: ");
+            // int age2 = Convert.ToInt32(Console.ReadLine());
+            //
+            // if (age2 < 0)
+            // {
+            //     Console.WriteLine("You Haven't Been Born Yet");
+            // }else if(age2 >= 18) 
+            // {
+            //     Console.WriteLine("Congratulations! Your An Adult");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Get back in line, your Too Young!");
+            // }
+            //
+            // Console.WriteLine("Please enter your name: ");
+            // String name1 = Console.ReadLine();
+            //
+            //
+            // if (name == "") // returned an empty string
+            // {
+            //     Console.WriteLine("You Didn't Enter anything!");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Hello " + name1 + "!");
+            // }
+            //
             
             
             // SWITCH Statements =======================================================================================
@@ -337,7 +337,22 @@ namespace C_Sharp_Lessons
                     break;
                 case "Tuesday":
                     Console.WriteLine("IT's Taco Tuesday!");
-                    
+                    break;
+                case "Wednesday":
+                    Console.WriteLine("IT's Wack Wednesday's");
+                    break;
+                case "Thursday":
+                    Console.WriteLine("IT's Thirsty Thursdays!");
+                    break;
+                case "Friday":
+                    Console.WriteLine("IT's Freaky Friday's!");
+                    break;
+                case "Saturday":
+                    Console.WriteLine("IT's Sick Saturday's!");
+                    break;
+                case "Sunday":
+                    Console.WriteLine("IT's Sunday! Get Ready For Church, BBQ's, AND FOOTBALL!");
+                    break;
             }
         }
     }  
