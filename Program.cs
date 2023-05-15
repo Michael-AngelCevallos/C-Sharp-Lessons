@@ -327,36 +327,36 @@ namespace C_Sharp_Lessons
             //==========================================================================================================
             // SWITCH Statements - an efficient alternative to many if else statemenets 
 
-            Console.WriteLine("What day is today?");
-            String day = Console.ReadLine();
-
-            switch (day)
-            {
-                case "Monday":
-                    Console.WriteLine("IT's Mad Monday's!");
-                    break;
-                case "Tuesday":
-                    Console.WriteLine("IT's Taco Tuesday!");
-                    break;
-                case "Wednesday":
-                    Console.WriteLine("IT's Wack Wednesday's");
-                    break;
-                case "Thursday":
-                    Console.WriteLine("IT's Thirsty Thursdays!");
-                    break;
-                case "Friday":
-                    Console.WriteLine("IT's Freaky Friday's!");
-                    break;
-                case "Saturday":
-                    Console.WriteLine("IT's Sick Saturday's!");
-                    break;
-                case "Sunday":
-                    Console.WriteLine("IT's Sunday! Get Ready For Church, BBQ's, AND FOOTBALL!");
-                    break;
-                default:
-                    Console.WriteLine(day + " is not a day of the week!");
-                    break;
-            }
+            // Console.WriteLine("What day is today?");
+            // String day = Console.ReadLine();
+            //
+            // switch (day)
+            // {
+            //     case "Monday":
+            //         Console.WriteLine("IT's Mad Monday's!");
+            //         break;
+            //     case "Tuesday":
+            //         Console.WriteLine("IT's Taco Tuesday!");
+            //         break;
+            //     case "Wednesday":
+            //         Console.WriteLine("IT's Wack Wednesday's");
+            //         break;
+            //     case "Thursday":
+            //         Console.WriteLine("IT's Thirsty Thursdays!");
+            //         break;
+            //     case "Friday":
+            //         Console.WriteLine("IT's Freaky Friday's!");
+            //         break;
+            //     case "Saturday":
+            //         Console.WriteLine("IT's Sick Saturday's!");
+            //         break;
+            //     case "Sunday":
+            //         Console.WriteLine("IT's Sunday! Get Ready For Church, BBQ's, AND FOOTBALL!");
+            //         break;
+            //     default:
+            //         Console.WriteLine(day + " is not a day of the week!");
+            //         break;
+            // }
 
 
 
@@ -383,21 +383,26 @@ namespace C_Sharp_Lessons
                 //     Console.WriteLine("Invalid Answer,Try again");
                 // }
 
+                
+                
                 //====================================================================================================
                 // LOGICAL OPERATORS - can be used to check if more than one condition is true/false
                 
-                // && (AND)
-                // || (OR)
+                // && (AND) - both conditions need to be true to follow through
+                // || (OR)  - only 1 condition needs to be true to foolow through
                 
                 Console.WriteLine("Whats the temperature outside: ");
                 double temp = Convert.ToDouble(Console.ReadLine());
 
 
-
                 if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
                 {
-                    Console.WriteLine("Weathers is great, wear shorts and a tshirt but bring a blanket");
-                }
+                    Console.WriteLine("Weathers is great, wear shorts and a t-shirt but bring a blanket");
+                } else if (temp <= -50 || temp >= -50)
+                {
+                    Console.WriteLine("Do NOT go Outside , it is too COLD!");
+                
+        }
 
 
 
