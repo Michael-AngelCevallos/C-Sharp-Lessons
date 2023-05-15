@@ -391,18 +391,26 @@ namespace C_Sharp_Lessons
                 // && (AND) - both conditions need to be true to follow through
                 // || (OR)  - only 1 condition needs to be true to foolow through
                 
-                Console.WriteLine("Whats the temperature outside: ");
-                double temp = Convert.ToDouble(Console.ReadLine());
-
-
-                if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
-                {
-                    Console.WriteLine("Weathers is great, wear shorts and a t-shirt but bring a blanket");
-                } else if (temp <= -50 || temp >= -50)
-                {
-                    Console.WriteLine("Do NOT go Outside , it is too COLD!");
+        //         Console.WriteLine("Whats the temperature outside: ");
+        //         double temp = Convert.ToDouble(Console.ReadLine());
+        //
+        //
+        //         if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
+        //         {
+        //             Console.WriteLine("Weathers is great, wear shorts and a t-shirt but bring a blanket");
+        //         } else if (temp <= -50 || temp >= -50) // only one needs to be true to continue
+        //         {
+        //             Console.WriteLine("Do NOT go Outside , it is too COLD!");
+        //         
+        // }
+        
+        
+        //=============================================================================================================
+        // While Loop - repeats code if condition remains true
+        
+        
                 
-        }
+                
 
 
 
