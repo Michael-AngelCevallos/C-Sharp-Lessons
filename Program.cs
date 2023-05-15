@@ -386,9 +386,18 @@ namespace C_Sharp_Lessons
                 //====================================================================================================
                 // LOGICAL OPERATORS - can be used to check if more than one condition is true/false
                 
+                // && (AND)
+                // || (OR)
                 
-                
-                
+                Console.WriteLine("Whats the temperature outside: ");
+                double temp = Convert.ToDouble(Console.ReadLine());
+
+
+
+                if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
+                {
+                    Console.WriteLine("Weathers is great, wear shorts and a tshirt but bring a blanket");
+                }
 
 
 
@@ -397,7 +406,8 @@ namespace C_Sharp_Lessons
 
 
 
-            }
+
+        }
         }
     }
         
