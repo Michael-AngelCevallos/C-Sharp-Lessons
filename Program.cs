@@ -425,12 +425,15 @@ namespace C_Sharp_Lessons
 
         // For loop - repeats some code a FINITE amount of times
 
-        for(int i = 0; i < 10; i += 1)
+        // for(int i = 0; i < 10; i += 1)
+        // {
+        //     Console.WriteLine(i);  // counts from 0 -9
+        // }
+
+        for (int i = 1; i <= 50; i  += 4) // multiplies 
         {
-            Console.WriteLine(i);  // counts from 0 -9
-        } 
-       
-        
+            Console.WriteLine(i * 2);
+        }
         
         
             }
