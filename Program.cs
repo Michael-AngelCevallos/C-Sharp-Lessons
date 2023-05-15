@@ -237,51 +237,51 @@ namespace C_Sharp_Lessons
             //
             // Console.WriteLine("Your Hypotenuse is: " + sideC + "in"); // returns 40
 
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
             // String Methods <========================================================================================
 
             String fullName = "Mike Cevallos";
 
-            
-            String upperCase = fullName.ToUpper();// ToUpper() - returns all letters UPPER-CASED
+
+            String upperCase = fullName.ToUpper(); // ToUpper() - returns all letters UPPER-CASED
             Console.WriteLine(upperCase);
 
-            
-            String lowerCase = fullName.ToLower();// ToLower() - returns all letters in string lower-cased
+
+            String lowerCase = fullName.ToLower(); // ToLower() - returns all letters in string lower-cased
             Console.WriteLine(lowerCase);
 
             Console.WriteLine(fullName);
 
-            
+
             // .Replace (Replaces an old value within string with new)
             String phoneNumber = "123-456-7899";
 
             phoneNumber = phoneNumber.Replace("-", ""); // Replaces an old value within string with new
             Console.WriteLine(phoneNumber); // returns 1234567899
-            
+
             //.Insert () (inserts into a string( uses 2 parameters))
             String userName1 = fullName.Insert(0, "@");
             Console.WriteLine(userName1); // returns @Mike Cevallos
-            
-            
+
+
             //.Length () displays length of string( including spaces)
             Console.WriteLine(userName1.Length); // returns 14
-            
+
             // SubStrings ( returns parts of string( first num in param is where to start, second is the length of that string)
             String firstName = fullName.Substring(0, 4); // return Mike
-            String lastName = fullName.Substring(5, 8);// returns Cevallos
+            String lastName = fullName.Substring(5, 8); // returns Cevallos
 
             Console.WriteLine(firstName);
             Console.WriteLine(lastName);
 
-            
+
             //IF STATEMENTS <==========================================================================================================
-            
+
             // Console.WriteLine("Please enter your age: ");
             // int age1 = Convert.ToInt32(Console.ReadLine());
             //
@@ -323,10 +323,10 @@ namespace C_Sharp_Lessons
             //     Console.WriteLine("Hello " + name1 + "!");
             // }
             //
-            
+
             //==========================================================================================================
             // SWITCH Statements - an efficient alternative to many if else statemenets 
-            
+
             Console.WriteLine("What day is today?");
             String day = Console.ReadLine();
 
@@ -353,40 +353,48 @@ namespace C_Sharp_Lessons
                 case "Sunday":
                     Console.WriteLine("IT's Sunday! Get Ready For Church, BBQ's, AND FOOTBALL!");
                     break;
+                default:
+                    Console.WriteLine(day + " is not a day of the week!");
+                    break;
             }
 
-            
-            
+
+
             // If Statement Equivalent of above switch statement
-            // if (day == "Monday")
-            // {
-            //     Console.WriteLine("It's Monday");
-            // } 
-            // else if (day == "Tuesday") {
-            //     Console.WriteLine("It's Tuesday!");
-            //
-            // } 
-            // else if (day == "Wednesday") {
-            //     Console.WriteLine("It's Wednesday!");
-            //
-            // }
-            // else if (day == "Thursday") {
-            //     Console.WriteLine("It's Thursday");
-            //
-            // } 
-            // else if (day == "Friday") {
-            //     Console.WriteLine("It's Friday");
-            // }
-            
-            
-            
-            
-            
-            
-            
+                // if (day == "Monday")
+                // {
+                //     Console.WriteLine("It's Monday");
+                // } 
+                // else if (day == "Tuesday") {
+                //     Console.WriteLine("It's Tuesday!");
+                //
+                // } 
+                // else if (day == "Wednesday") {
+                //     Console.WriteLine("It's Wednesday!");
+                //
+                // }
+                // else if (day == "Thursday") {
+                //     Console.WriteLine("It's Thursday");
+                //
+                // } 
+                // else if (day == "Friday") {
+                //     Console.WriteLine("It's Friday");
+                // } else{
+                //     Console.WriteLine("Invalid Answer,Try again");
+                // }
+
+
+
+
+
+
+
+
+
+
+            }
         }
-    }  
-        }
+    }
         
     
 
