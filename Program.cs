@@ -111,9 +111,9 @@ namespace C_Sharp_Lessons
             char h = Convert.ToChar(g);
             Console.WriteLine(h);
 
-            String i = "true";
-            bool j = Convert.ToBoolean(i);
-            Console.WriteLine(j);
+            // String i = "true";
+            // bool j = Convert.ToBoolean(i);
+            // Console.WriteLine(j);
 
 
             //Create Variables to hold and store values 
@@ -361,66 +361,79 @@ namespace C_Sharp_Lessons
 
 
             // If Statement Equivalent of above switch statement
-                // if (day == "Monday")
-                // {
-                //     Console.WriteLine("It's Monday");
-                // } 
-                // else if (day == "Tuesday") {
-                //     Console.WriteLine("It's Tuesday!");
-                //
-                // } 
-                // else if (day == "Wednesday") {
-                //     Console.WriteLine("It's Wednesday!");
-                //
-                // }
-                // else if (day == "Thursday") {
-                //     Console.WriteLine("It's Thursday");
-                //
-                // } 
-                // else if (day == "Friday") {
-                //     Console.WriteLine("It's Friday");
-                // } else{
-                //     Console.WriteLine("Invalid Answer,Try again");
-                // }
+            // if (day == "Monday")
+            // {
+            //     Console.WriteLine("It's Monday");
+            // } 
+            // else if (day == "Tuesday") {
+            //     Console.WriteLine("It's Tuesday!");
+            //
+            // } 
+            // else if (day == "Wednesday") {
+            //     Console.WriteLine("It's Wednesday!");
+            //
+            // }
+            // else if (day == "Thursday") {
+            //     Console.WriteLine("It's Thursday");
+            //
+            // } 
+            // else if (day == "Friday") {
+            //     Console.WriteLine("It's Friday");
+            // } else{
+            //     Console.WriteLine("Invalid Answer,Try again");
+            // }
 
-                
-                
-                //====================================================================================================
-                // LOGICAL OPERATORS - can be used to check if more than one condition is true/false
-                
-                // && (AND) - both conditions need to be true to follow through
-                // || (OR)  - only 1 condition needs to be true to foolow through
-                
-        //         Console.WriteLine("Whats the temperature outside: ");
-        //         double temp = Convert.ToDouble(Console.ReadLine());
-        //
-        //
-        //         if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
-        //         {
-        //             Console.WriteLine("Weathers is great, wear shorts and a t-shirt but bring a blanket");
-        //         } else if (temp <= -50 || temp >= -50) // only one needs to be true to continue
-        //         {
-        //             Console.WriteLine("Do NOT go Outside , it is too COLD!");
-        //         
-        // }
+
+
+            //====================================================================================================
+            // LOGICAL OPERATORS - can be used to check if more than one condition is true/false
+
+            // && (AND) - both conditions need to be true to follow through
+            // || (OR)  - only 1 condition needs to be true to foolow through
+
+            //         Console.WriteLine("Whats the temperature outside: ");
+            //         double temp = Convert.ToDouble(Console.ReadLine());
+            //
+            //
+            //         if (temp >= 70 && temp <= 80) // Both conditions must be true to return message, otherwise it will skip
+            //         {
+            //             Console.WriteLine("Weathers is great, wear shorts and a t-shirt but bring a blanket");
+            //         } else if (temp <= -50 || temp >= -50) // only one needs to be true to continue
+            //         {
+            //             Console.WriteLine("Do NOT go Outside , it is too COLD!");
+            //         
+            // }
+
+
+            //=============================================================================================================
+
+            // While Loop - repeats code if condition remains true
+
+            // Console.WriteLine("Enter your name : ");
+            // String name2 = "";
+            //
+            // while (name2 == "")
+            // {
+            //     Console.WriteLine("Help Im stuck in a loop");
+            // }
+
+            
+
+        
+
+        //===============================================================================================================
+
+        // For loop - repeats some code a FINITE amount of times
+
+        for(int i = 0; i < 10; i += 1)
+        {
+            Console.WriteLine(i);  // counts from 0 -9
+        } 
+       
         
         
-        //=============================================================================================================
-        // While Loop - repeats code if condition remains true
         
-        
-                
-                
-
-
-
-
-
-
-
-
-
-        }
+            }
         }
     }
         
