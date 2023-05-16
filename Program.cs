@@ -445,12 +445,19 @@ namespace C_Sharp_Lessons
         Console.WriteLine("How many columns?");
         int columns = Convert.ToInt32(Console.ReadLine());
         
-        while (rows )
+        Console.WriteLine("What symbol: ");
+        char symbol1 = Convert.ToChar(Console.ReadLine());
+
+
+        
+        // Multiplies 2 numbers from user input and returns the symbol that many times
+        for (int i = 0; i < rows; i++)
         {
-            for (int i = 0; i < UPPER; i++)
+            for (int j = 0; j < columns; j++)
             {
-                
+                Console.WriteLine(symbol1);
             }
+            Console.WriteLine();
         }
         
         
