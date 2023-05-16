@@ -480,15 +480,15 @@ namespace C_Sharp_Lessons
 
         
         // Multiplies 2 numbers from user input and returns the symbol that many times
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < columns; j++)
-            {
-                Console.WriteLine(symbol1);
-            }
-            Console.WriteLine();
-        }
-        
+        // for (int i = 0; i < rows; i++)
+        // {
+        //     for (int j = 0; j < columns; j++)
+        //     {
+        //         Console.WriteLine(symbol1);
+        //     }
+        //     Console.WriteLine();
+        // }
+        //
         
         //==============================================================================================================================================
         
@@ -502,13 +502,31 @@ namespace C_Sharp_Lessons
         int number;
         int guesses;
 
-        while (playAgain == true)
+        while (playAgain)
         {
             guess = 0;
             guesses = 0;
             number = random.Next(min1, max1);
 
-            while (guess !)
+            while (guess != number)
+            {
+                Console.WriteLine("Guess A number between " + min + "and " + max + ": ");
+                guess = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Guess: " + guess);
+
+                if (guess > number)
+                {
+                    Console.WriteLine(guess + " is to high!");
+                }
+                else if (guess < number)
+                {
+                    Console.WriteLine(guess + " is to low!");
+                }
+                {
+                    
+                }
+            }
+            
             {
                 
             }
