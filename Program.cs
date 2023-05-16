@@ -436,6 +436,25 @@ namespace C_Sharp_Lessons
         }
         
         
+        //===============================================================================================================
+        // Nested Loops - loops insid of other loops. Used alot in sorting algorithims
+
+        Console.WriteLine("How many rows?");
+        int rows = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("How many columns?");
+        int columns = Convert.ToInt32(Console.ReadLine());
+        
+        while (rows )
+        {
+            for (int i = 0; i < UPPER; i++)
+            {
+                
+            }
+        }
+        
+        
+        
             }
         }
     }
