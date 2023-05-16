@@ -501,11 +501,13 @@ namespace C_Sharp_Lessons
         int guess;
         int number;
         int guesses;
+        String response;
 
         while (playAgain)
         {
             guess = 0;
             guesses = 0;
+            response = "";
             number = random.Next(min1, max1);
 
             while (guess != number)
@@ -526,9 +528,20 @@ namespace C_Sharp_Lessons
                 {
                     Console.WriteLine("Number: " + number);
                     Console.WriteLine("YOU WIN!");
-                    Console.WriteLine("Guesses" + guesses);
+                    Console.WriteLine("Guesses " + guesses);
 
-                    Console.WriteLine("Would You Like TO Play Again (Y/N): ");
+                    Console.WriteLine("Would You Like TO Play Again (Y/N): "); 
+                    response = Console.ReadLine();
+                    response = response.ToUpper();
+
+                    if (response == "Y")
+                    {
+                        playAgain = true;
+                    }
+                    else
+                    {
+                        playAgain = false;
+                    }
                 }
                 Console.WriteLine("Thank for playing!");
             }
