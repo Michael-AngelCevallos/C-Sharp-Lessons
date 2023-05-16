@@ -493,6 +493,7 @@ namespace C_Sharp_Lessons
         //==============================================================================================================================================
         
         //Using Random Object ( Random random = new Random() )
+        // GUESS A NUMBER GAME WITH LOOP FOR PROGRAM ! <--------------------------------------------
 
         bool playAgain = true;
         int min1 = 1;
@@ -524,13 +525,14 @@ namespace C_Sharp_Lessons
                 {
                     Console.WriteLine(guess + " is to low!");
                 }
+
                 guesses++;
                 {
                     Console.WriteLine("Number: " + number);
                     Console.WriteLine("YOU WIN!");
                     Console.WriteLine("Guesses " + guesses);
 
-                    Console.WriteLine("Would You Like TO Play Again (Y/N): "); 
+                    Console.WriteLine("Would You Like TO Play Again (Y/N): ");
                     response = Console.ReadLine();
                     response = response.ToUpper();
 
@@ -545,14 +547,27 @@ namespace C_Sharp_Lessons
                 }
                 Console.WriteLine("Thank for playing!");
             }
-            
-            {
-                
-            }
         }
+
+
+        
+        //================================================================================================================================================
+        // Rock, Paper, Scissors Game 
+
+        Random random1 = new Random(); // Random object - generates Random number for Computers Choice <-------------
+
+        bool playAgain1 = true; // This will allow user to opt out of playing again (if false)
+        String player;
+        String computer;
+
+        while ()
         {
             
         }
+
+
+
+
         }
         }
     }
