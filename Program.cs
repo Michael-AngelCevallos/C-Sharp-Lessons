@@ -524,7 +524,7 @@ namespace C_Sharp_Lessons
                 {
                     Console.WriteLine(guess + " is to low!");
                 }
-                guess++;
+                guesses++;
                 {
                     Console.WriteLine("Number: " + number);
                     Console.WriteLine("YOU WIN!");
