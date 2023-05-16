@@ -18,19 +18,25 @@ namespace C_Sharp_Lessons
             // Console.WriteLine($"You are {input} years old!");
 
 
+            
+            //============================================================================================================================================
             // How To Format Output <----------------------------------------------------------------------------------
             Console.Write("Hey"); // Console.Write will not hit enter key after declaration
             Console.WriteLine(
                 "Hey is on the same line as this one"); // Console.Writeline Will Hit Enter key after Declaration
 
 
-
+    
+            //===========================================================================================================================================
 
             // Auto generate Console.Writeline ( c + w + tab)<---------------------------------------------------------
             Console.WriteLine();
 
 
+            
+            
 
+            //===========================================================================================================================================
             // Console Escape Sequences <-------------------------------------------------------------------------------
             Console.WriteLine("\tMike Cevallos"); // returns Mike Cevallos, Tabbed in (\t)
 
@@ -55,6 +61,11 @@ namespace C_Sharp_Lessons
             Console.WriteLine(y);
             Console.WriteLine(z);
 
+            
+            
+            
+            
+            //===========================================================================================================================================
             // Display Message with String <---------------------------------------------------------------------------
 
             int age = 29; // Integer(int) -Whole Number
@@ -77,6 +88,9 @@ namespace C_Sharp_Lessons
             Console.WriteLine(userName);
 
 
+            
+            
+            //===========================================================================================================================================
             //Constants- Lesson ( Using keyword const) <---------------------------------------------------------------
             //          Constants are immutable values which are known at compile time and
             //          do not change during the life of the program
@@ -87,6 +101,12 @@ namespace C_Sharp_Lessons
 
             Console.WriteLine(pi);
 
+            
+            
+            
+            
+            
+            //===========================================================================================================================================
             // TYPE CASTING - Converting a Value to a Different Data Type <---------------------------------------------
             //                Useful when we accept User Input
             //                Different Data types can do different things  
@@ -127,6 +147,9 @@ namespace C_Sharp_Lessons
 
 
 
+            
+            
+            //===========================================================================================================================================
             // Basic Arithmetic Lesson <--------------------------------------------------------------------------------
 
             int friends = 5;
@@ -165,6 +188,9 @@ namespace C_Sharp_Lessons
             int remainder = 25 % 2;
             Console.WriteLine(remainder);
 
+            
+            
+            //==========================================================================================================================================
             // Math Class Examples <-------------------------------------------------------------------------------
 
             double t = 3.5;
@@ -194,7 +220,11 @@ namespace C_Sharp_Lessons
             double min = Math.Min(t, p); // Math.Min - returns lowest number in list of numbers
             Console.WriteLine(min); //  returns 3.5
 
-
+            
+            
+            
+            
+            //===========================================================================================================================================
             // Generate Random NUMBERS <-------------------------------------------------------------------------------
 
             // intiate Random Object
@@ -224,7 +254,7 @@ namespace C_Sharp_Lessons
             Console.WriteLine("Your Third and Final Roll is " + dice3);
             Console.WriteLine("Your Total Number is " + all);
 
-
+            //===========================================================================================================================================
             // Hypotenuse Calculator <---------------------------------------------------------------------------------
             // Console.WriteLine("Enter Side A: ");
             // double sideA = (Convert.ToDouble(Console.ReadLine()));
@@ -243,7 +273,7 @@ namespace C_Sharp_Lessons
 
 
 
-            // String Methods <========================================================================================
+            // String Methods <===========================================================================================================================
 
             String fullName = "Mike Cevallos";
 
@@ -280,7 +310,7 @@ namespace C_Sharp_Lessons
             Console.WriteLine(lastName);
 
 
-            //IF STATEMENTS <==========================================================================================================
+            //IF STATEMENTS <=============================================================================================================================
 
             // Console.WriteLine("Please enter your age: ");
             // int age1 = Convert.ToInt32(Console.ReadLine());
@@ -324,7 +354,7 @@ namespace C_Sharp_Lessons
             // }
             //
 
-            //==========================================================================================================
+            //============================================================================================================================================
             // SWITCH Statements - an efficient alternative to many if else statemenets 
 
             // Console.WriteLine("What day is today?");
@@ -385,7 +415,7 @@ namespace C_Sharp_Lessons
 
 
 
-            //====================================================================================================
+            //===========================================================================================================================================
             // LOGICAL OPERATORS - can be used to check if more than one condition is true/false
 
             // && (AND) - both conditions need to be true to follow through
@@ -405,8 +435,7 @@ namespace C_Sharp_Lessons
             // }
 
 
-            //=============================================================================================================
-
+            //===========================================================================================================================================
             // While Loop - repeats code if condition remains true
 
             // Console.WriteLine("Enter your name : ");
@@ -421,7 +450,7 @@ namespace C_Sharp_Lessons
 
         
 
-        //===============================================================================================================
+        //===============================================================================================================================================
 
         // For loop - repeats some code a FINITE amount of times
 
@@ -436,7 +465,7 @@ namespace C_Sharp_Lessons
         }
         
         
-        //===============================================================================================================
+        //================================================================================================================================================
         // Nested Loops - loops insid of other loops. Used alot in sorting algorithims
 
         Console.WriteLine("How many rows?");
@@ -461,8 +490,33 @@ namespace C_Sharp_Lessons
         }
         
         
+        //==============================================================================================================================================
         
+        //Using Random Object ( Random random = new Random() )
+
+        bool playAgain = true;
+        int min1 = 1;
+        int max1 = 100;
+
+        int guess;
+        int number;
+        int guesses;
+
+        while (playAgain == true)
+        {
+            guess = 0;
+            guesses = 0;
+            number = random.Next(min1, max1);
+
+            while (guess !)
+            {
+                
             }
+        }
+        {
+            
+        }
+        }
         }
     }
         
