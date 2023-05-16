@@ -468,14 +468,14 @@ namespace C_Sharp_Lessons
         //================================================================================================================================================
         // Nested Loops - loops insid of other loops. Used alot in sorting algorithims
 
-        Console.WriteLine("How many rows?");
-        int rows = Convert.ToInt32(Console.ReadLine());
-        
-        Console.WriteLine("How many columns?");
-        int columns = Convert.ToInt32(Console.ReadLine());
-        
-        Console.WriteLine("What symbol: ");
-        char symbol1 = Convert.ToChar(Console.ReadLine());
+        // Console.WriteLine("How many rows?");
+        // int rows = Convert.ToInt32(Console.ReadLine());
+        //
+        // Console.WriteLine("How many columns?");
+        // int columns = Convert.ToInt32(Console.ReadLine());
+        //
+        // Console.WriteLine("What symbol: ");
+        // char symbol1 = Convert.ToChar(Console.ReadLine());
 
 
         
@@ -510,7 +510,7 @@ namespace C_Sharp_Lessons
 
             while (guess != number)
             {
-                Console.WriteLine("Guess A number between " + min + "and " + max + ": ");
+                Console.WriteLine("Guess A number between " + min1 + " and " + max1 + ": ");
                 guess = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Guess: " + guess);
 
@@ -522,9 +522,15 @@ namespace C_Sharp_Lessons
                 {
                     Console.WriteLine(guess + " is to low!");
                 }
+                guess++;
                 {
-                    
+                    Console.WriteLine("Number: " + number);
+                    Console.WriteLine("YOU WIN!");
+                    Console.WriteLine("Guesses" + guesses);
+
+                    Console.WriteLine("Would You Like TO Play Again (Y/N): ");
                 }
+                Console.WriteLine("Thank for playing!");
             }
             
             {
