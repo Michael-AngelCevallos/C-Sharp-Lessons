@@ -576,8 +576,26 @@ namespace C_Sharp_Lessons
             Console.WriteLine(player); // prints out users choice of rock, paper ,or scissors
         }
 
-        int randomNum = random1.Next(1,4);
-        
+      
+
+        switch (random1.Next(1,4))
+        {
+            case 1 :
+                computer = "ROCK";
+                break;
+            case 2 :
+                computer = "PAPER";
+                break;
+            case 3 :
+                computer = "SCISSORS";
+                break;
+        }
+
+        Console.WriteLine("Player: " + player);
+        Console.WriteLine("Computer: " + computer);
+        {
+            
+        }
         {
             
         }
