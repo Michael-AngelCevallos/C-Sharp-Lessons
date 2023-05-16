@@ -495,59 +495,59 @@ namespace C_Sharp_Lessons
         //Using Random Object ( Random random = new Random() )
         // GUESS A NUMBER GAME WITH LOOP FOR PROGRAM ! <--------------------------------------------
 
-        bool playAgain = true;
-        int min1 = 1;
-        int max1 = 100;
-
-        int guess;
-        int number;
-        int guesses;
-        String response;
-
-        while (playAgain)
-        {
-            guess = 0;
-            guesses = 0;
-            response = "";
-            number = random.Next(min1, max1);
-
-            while (guess != number)
-            {
-                Console.WriteLine("Guess A number between " + min1 + " and " + max1 + ": ");
-                guess = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Guess: " + guess);
-
-                if (guess > number)
-                {
-                    Console.WriteLine(guess + " is to high!");
-                }
-                else if (guess < number)
-                {
-                    Console.WriteLine(guess + " is to low!");
-                }
-
-                guesses++;
-                {
-                    Console.WriteLine("Number: " + number);
-                    Console.WriteLine("YOU WIN!");
-                    Console.WriteLine("Guesses " + guesses);
-
-                    Console.WriteLine("Would You Like TO Play Again (Y/N): ");
-                    response = Console.ReadLine();
-                    response = response.ToUpper();
-
-                    if (response == "Y")
-                    {
-                        playAgain = true;
-                    }
-                    else
-                    {
-                        playAgain = false;
-                    }
-                }
-                Console.WriteLine("Thank for playing!");
-            }
-        }
+        // bool playAgain = true;
+        // int min1 = 1;
+        // int max1 = 100;
+        //
+        // int guess;
+        // int number;
+        // int guesses;
+        // String response;
+        //
+        // while (playAgain)
+        // {
+        //     guess = 0;
+        //     guesses = 0;
+        //     response = "";
+        //     number = random.Next(min1, max1);
+        //
+        //     while (guess != number)
+        //     {
+        //         Console.WriteLine("Guess A number between " + min1 + " and " + max1 + ": ");
+        //         guess = Convert.ToInt32(Console.ReadLine());
+        //         Console.WriteLine("Guess: " + guess);
+        //
+        //         if (guess > number)
+        //         {
+        //             Console.WriteLine(guess + " is to high!");
+        //         }
+        //         else if (guess < number)
+        //         {
+        //             Console.WriteLine(guess + " is to low!");
+        //         }
+        //
+        //         guesses++;
+        //         {
+        //             Console.WriteLine("Number: " + number);
+        //             Console.WriteLine("YOU WIN!");
+        //             Console.WriteLine("Guesses " + guesses);
+        //
+        //             Console.WriteLine("Would You Like TO Play Again (Y/N): ");
+        //             response = Console.ReadLine();
+        //             response = response.ToUpper();
+        //
+        //             if (response == "Y")
+        //             {
+        //                 playAgain = true;
+        //             }
+        //             else
+        //             {
+        //                 playAgain = false;
+        //             }
+        //         }
+        //         Console.WriteLine("Thank for playing!");
+        //     }
+        // }
 
 
         
@@ -560,7 +560,24 @@ namespace C_Sharp_Lessons
         String player;
         String computer;
 
-        while ()
+        while (playAgain1) // assumes playAgain IS true
+        {
+            player = "";
+            computer = "";
+            
+            while (player != "ROCK" && player != "PAPER" && player != "SCISSORS")
+            {
+                
+            }
+            Console.WriteLine("Enter ROCK, PAPER, OR SCISSORS!!!!!! :  ");
+            player = Console.ReadLine(); // STORES USERS INPUT
+            player = player.ToUpper(); // Will return players choice in uppercase 
+
+            Console.WriteLine(player); // prints out users choice of rock, paper ,or scissors
+        }
+
+        int randomNum = random1.Next(1,4);
+        
         {
             
         }
