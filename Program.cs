@@ -674,7 +674,9 @@ namespace C_Sharp_Lessons
             // 2nd - START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
             double num1 = 0; // sets sequence to zero
             double num2 = 0;
-            double result = 0;
+            double result = 0; // This Variable is used to take in users selection of operation
+            bool playAgain2 = true;
+            String answer1;
             
             
             
@@ -694,16 +696,44 @@ namespace C_Sharp_Lessons
             Console.WriteLine();
             Console.WriteLine("+ Add: ");
             Console.WriteLine("- Subtract: ");
-            Console.WriteLine("* Multipy: ");
+            Console.WriteLine("* Multiply: ");
             Console.WriteLine("/ Divide: ");
             
-            // 7th - Make Swith Staement COncept to handle choices
+            // 7th - Make SWITCH Statement Concept to handle choices
             switch (Console.ReadLine())
             {
-                case ""
+                case "+": // <---- Search for the Addition operator in the users input (from cw above) <--------------------------------------------------------
+                    result = num1 + num2; // Gives the order to ADD the USERS INPUT
+                    Console.WriteLine($"Your answer of : {num1} + {num2} =  " + result); // Re-iterates the the calculation the was selected by the USER
+                    break;
+                case "-":
+                    result = num1 - num2; // Gives the order to SUBTRACT the USERS input
+                    Console.WriteLine($"Your answer of : {num1} - {num2} =  " + result); // Re-iterates the the calculation the was selected by the USER
+                    break;
+                case "*":
+                    result = num1 * num2; // Gives the order to MULTIPlY the USERS input 
+                    Console.WriteLine($"Your answer of : {num1} * {num2} =  " + result); // Re-iterates the the calculation the was selected by the USER
+                    break;
+                case "/":
+                    result = num1 / num2; // Gives the order to DIVIDE the USERS input
+                    Console.WriteLine($"Your answer of : {num1} / {num2} =  " + result); // Returns Answer & CW of The Operation that was selected byuser
+                    break;
+                    
             }
 
-            
+            Console.WriteLine("Play Again?: Enter -> (Y/N");
+           answer1 = Console.ReadLine();
+           answer1 = answer1.ToUpper();
+
+           if (answer1 == true)
+           {
+               
+           }
+
+
+
+
+
 
 
 
