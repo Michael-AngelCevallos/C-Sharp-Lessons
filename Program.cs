@@ -686,11 +686,14 @@ namespace C_Sharp_Lessons
             
             // 5th - Console Write the option for the user to enter their option
             Console.WriteLine("Enter your numbers : ");
-            Console.ReadLine();
+          
             
             //6th - give options
             Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("+ Add: ");
+            Console.WriteLine("- Subtract: ");
+            Console.WriteLine("* Multipy: ");
+            Console.WriteLine("/ Divide: ");
             
             
 
