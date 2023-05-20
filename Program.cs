@@ -560,11 +560,13 @@ namespace C_Sharp_Lessons
             bool playAgain1 = true; // This will allow user to opt out of playing again (if false)
             String player;
             String computer;
+            String answer;
 
             while (playAgain1) // assumes playAgain IS true
             {
                 player = "";
                 computer = "";
+                answer = "";
 
                 while (player != "ROCK" && player != "PAPER" && player != "SCISSORS")
                 {
@@ -645,7 +647,20 @@ namespace C_Sharp_Lessons
 
                         break;
                 }
+                
+                Console.WriteLine("Would you like to play again? (Y/N): ");
+                answer = Console.ReadLine();
+                answer = answer.ToUpper();
+                if (answer == "Y")
+                {
+                    playAgain1 = true;
+                }
+                else
+                {
+                    playAgain1 = false;
+                }
             }
+            Console.WriteLine("GoodBye!");
         }
     }
 }
