@@ -666,12 +666,21 @@ namespace C_Sharp_Lessons
             //=====================================================================================================================================================
             // CALCULATOR PROGRAM
 
-            // FIRST : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
-            Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGGINING OF THE RUN
+            // FIRST- : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
+            Console.WriteLine("-----------------------------------");// added dashes to console to stand out
+            Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGINNING OF THE RUN
+            Console.WriteLine("-----------------------------------"); // added for visual aesthetics
             
+            // SECOND- START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
+            double num1 = 0; // sets sequence to zero
+            double num2 = 0;
+            double result = 0;
+            
+            // THIRD- ask for user input
             
 
-            
+
+
 
 
         }
