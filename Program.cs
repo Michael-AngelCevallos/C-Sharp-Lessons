@@ -716,7 +716,7 @@ namespace C_Sharp_Lessons
                     break;
                 case "/":
                     result = num1 / num2; // Gives the order to DIVIDE the USERS input
-                    Console.WriteLine($"Your answer of : {num1} / {num2} =  " + result); // Returns Answer & CW of The Operation that was selected byuser
+                    Console.WriteLine($"Your answer of : {num1} / {num2} =  " + result); // Returns Answer & CW of The Operation that was selected user
                     break;
                     
             }
@@ -725,9 +725,14 @@ namespace C_Sharp_Lessons
            answer1 = Console.ReadLine();
            answer1 = answer1.ToUpper();
 
-           if (answer1 == true)
+           if (answer1 == "Y")
            {
-               
+               playAgain2 = true;
+           }
+           else
+           {
+               playAgain2 = false;
+                   
            }
 
 
