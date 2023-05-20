@@ -594,9 +594,28 @@ namespace C_Sharp_Lessons
         Console.WriteLine("Player: " + player);
         Console.WriteLine("Computer: " + computer);
 
-        switch (expression)
+        switch (player)
         {
+            case "ROCK":
+                if (computer == "ROCK")
+                {
+                    Console.WriteLine("It's A Draw");
+                }
+                else if(computer == "PAPER")
+                {
+                    Console.WriteLine("You lose!");
+                }
+                else
+                {
+                    Console.WriteLine("You Win!");
+                }
+                break;
             
+            case "PAPER" :
+                break;
+            
+            case "SCISSORS" :
+                break;
         }
         {
             
