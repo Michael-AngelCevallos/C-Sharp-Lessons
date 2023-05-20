@@ -666,20 +666,33 @@ namespace C_Sharp_Lessons
             //=====================================================================================================================================================
             // CALCULATOR PROGRAM
 
-            // FIRST- : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
+            // 1st - : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
             Console.WriteLine("-----------------------------------");// added dashes to console to stand out
             Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGINNING OF THE RUN
             Console.WriteLine("-----------------------------------"); // added for visual aesthetics
             
-            // SECOND- START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
+            // 2nd - START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
             double num1 = 0; // sets sequence to zero
             double num2 = 0;
             double result = 0;
             
-            // THIRD- ask for user input
+            // 3rd - ask for USER input
+            Console.WriteLine("Enter Number 1: ");
+            num1 = Convert.ToDouble(Console.ReadLine()); // Converts user input for num1 to a double variable
+
+            //4th - do the same for num2 variable
+            Console.WriteLine("Enter Number 2: ");
+            num2 = Convert.ToDouble(Console.ReadLine());
             
-
-
+            // 5th - Console Write the option for the user to enter their option
+            Console.WriteLine("Enter your numbers : ");
+            Console.ReadLine();
+            
+            //6th - give options
+            Console.WriteLine();
+            Console.WriteLine();
+            
+            
 
 
 
