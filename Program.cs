@@ -614,7 +614,7 @@ namespace C_Sharp_Lessons
             case "PAPER" :
                 if (computer == "ROCK")
                 {
-                    Console.WriteLine("You Win!");
+                    Console.WriteLine("You Lose!");
                 }
                 else if(computer == "PAPER")
                 {
@@ -622,11 +622,23 @@ namespace C_Sharp_Lessons
                 }
                 else
                 {
-                    Console.WriteLine("You Lose!");
+                    Console.WriteLine("You Win!");
                 }
                 break;
             
             case "SCISSORS" :
+                if (computer == "ROCK")
+                {
+                    Console.WriteLine("You Win!");
+                }
+                else if(computer == "PAPER")
+                {
+                    Console.WriteLine("You lose!");
+                }
+                else
+                {
+                    Console.WriteLine("Its a Draw!");
+                }
                 break;
         }
         {
