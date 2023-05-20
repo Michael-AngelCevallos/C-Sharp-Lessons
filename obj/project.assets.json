@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michael-angelcevallos/RiderProjects/C-Sharp-Lessons/C-Sharp-Lessons.csproj",
+      "projectUniqueName": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /C-Sharp-Lessons.csproj",
       "projectName": "C-Sharp-Lessons",
-      "projectPath": "/Users/michael-angelcevallos/RiderProjects/C-Sharp-Lessons/C-Sharp-Lessons.csproj",
+      "projectPath": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /C-Sharp-Lessons.csproj",
       "packagesPath": "/Users/michael-angelcevallos/.nuget/packages/",
-      "outputPath": "/Users/michael-angelcevallos/RiderProjects/C-Sharp-Lessons/obj/",
+      "outputPath": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michael-angelcevallos/.nuget/NuGet/NuGet.Config"

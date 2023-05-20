@@ -554,114 +554,128 @@ namespace C_Sharp_Lessons
             //================================================================================================================================================
             // Rock, Paper, Scissors Game 
 
-            Random
-                random1 = new Random(); // Random object - generates Random number for Computers Choice <-------------
+            //     Random
+            //         random1 = new Random(); // Random object - generates Random number for Computers Choice <-------------
+            //
+            //     bool playAgain1 = true; // This will allow user to opt out of playing again (if false)
+            //     String player;
+            //     String computer;
+            //     String answer;
+            //
+            //     while (playAgain1) // assumes playAgain IS true
+            //     {
+            //         player = "";
+            //         computer = "";
+            //         answer = "";
+            //
+            //         while (player != "ROCK" && player != "PAPER" && player != "SCISSORS")
+            //         {
+            //             Console.WriteLine("Enter ROCK, PAPER, OR SCISSORS!!!!!! :  ");
+            //             player = Console.ReadLine(); // STORES USERS INPUT
+            //             player = player.ToUpper(); // Will return players choice in uppercase 
+            //         }
+            //
+            //
+            //         //     Console.WriteLine(player); // prints out users choice of rock, paper ,or scissors
+            //         // }
+            //
+            //
+            //
+            //         switch (random1.Next(1, 4))
+            //         {
+            //             case 1:
+            //                 computer = "ROCK";
+            //                 break;
+            //             case 2:
+            //                 computer = "PAPER";
+            //                 break;
+            //             case 3:
+            //                 computer = "SCISSORS";
+            //                 break;
+            //         }
+            //
+            //         Console.WriteLine("Player: " + player);
+            //         Console.WriteLine("Computer: " + computer);
+            //
+            //         switch (player)
+            //         {
+            //             case "ROCK":
+            //                 if (computer == "ROCK")
+            //                 {
+            //                     Console.WriteLine("It's A Draw");
+            //                 }
+            //                 else if (computer == "PAPER")
+            //                 {
+            //                     Console.WriteLine("You lose!");
+            //                 }
+            //                 else
+            //                 {
+            //                     Console.WriteLine("You Win!");
+            //                 }
+            //
+            //                 break;
+            //
+            //             case "PAPER":
+            //                 if (computer == "ROCK")
+            //                 {
+            //                     Console.WriteLine("You Lose!");
+            //                 }
+            //                 else if (computer == "PAPER")
+            //                 {
+            //                     Console.WriteLine("Its a Draw!");
+            //                 }
+            //                 else
+            //                 {
+            //                     Console.WriteLine("You Win!");
+            //                 }
+            //
+            //                 break;
+            //
+            //             case "SCISSORS":
+            //                 if (computer == "ROCK")
+            //                 {
+            //                     Console.WriteLine("You Win!");
+            //                 }
+            //                 else if (computer == "PAPER")
+            //                 {
+            //                     Console.WriteLine("You lose!");
+            //                 }
+            //                 else
+            //                 {
+            //                     Console.WriteLine("Its a Draw!");
+            //                 }
+            //
+            //                 break;
+            //         }
+            //         
+            //         Console.WriteLine("Would you like to play again? (Y/N): ");
+            //         answer = Console.ReadLine();
+            //         answer = answer.ToUpper();
+            //         if (answer == "Y")
+            //         {
+            //             playAgain1 = true;
+            //         }
+            //         else
+            //         {
+            //             playAgain1 = false;
+            //         }
+            //     }
+            //     Console.WriteLine("GoodBye!");
+            // }
 
-            bool playAgain1 = true; // This will allow user to opt out of playing again (if false)
-            String player;
-            String computer;
-            String answer;
+            //=====================================================================================================================================================
+            // CALCULATOR PROGRAM
 
-            while (playAgain1) // assumes playAgain IS true
-            {
-                player = "";
-                computer = "";
-                answer = "";
+            // FIRST : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
+            Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGGINING OF THE RUN
+            
+            
 
-                while (player != "ROCK" && player != "PAPER" && player != "SCISSORS")
-                {
-                    Console.WriteLine("Enter ROCK, PAPER, OR SCISSORS!!!!!! :  ");
-                    player = Console.ReadLine(); // STORES USERS INPUT
-                    player = player.ToUpper(); // Will return players choice in uppercase 
-                }
+            
 
 
-                //     Console.WriteLine(player); // prints out users choice of rock, paper ,or scissors
-                // }
-
-
-
-                switch (random1.Next(1, 4))
-                {
-                    case 1:
-                        computer = "ROCK";
-                        break;
-                    case 2:
-                        computer = "PAPER";
-                        break;
-                    case 3:
-                        computer = "SCISSORS";
-                        break;
-                }
-
-                Console.WriteLine("Player: " + player);
-                Console.WriteLine("Computer: " + computer);
-
-                switch (player)
-                {
-                    case "ROCK":
-                        if (computer == "ROCK")
-                        {
-                            Console.WriteLine("It's A Draw");
-                        }
-                        else if (computer == "PAPER")
-                        {
-                            Console.WriteLine("You lose!");
-                        }
-                        else
-                        {
-                            Console.WriteLine("You Win!");
-                        }
-
-                        break;
-
-                    case "PAPER":
-                        if (computer == "ROCK")
-                        {
-                            Console.WriteLine("You Lose!");
-                        }
-                        else if (computer == "PAPER")
-                        {
-                            Console.WriteLine("Its a Draw!");
-                        }
-                        else
-                        {
-                            Console.WriteLine("You Win!");
-                        }
-
-                        break;
-
-                    case "SCISSORS":
-                        if (computer == "ROCK")
-                        {
-                            Console.WriteLine("You Win!");
-                        }
-                        else if (computer == "PAPER")
-                        {
-                            Console.WriteLine("You lose!");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Its a Draw!");
-                        }
-
-                        break;
-                }
-                
-                Console.WriteLine("Would you like to play again? (Y/N): ");
-                answer = Console.ReadLine();
-                answer = answer.ToUpper();
-                if (answer == "Y")
-                {
-                    playAgain1 = true;
-                }
-                else
-                {
-                    playAgain1 = false;
-                }
-            }
-            Console.WriteLine("GoodBye!");
         }
+        
     }
 }
         
