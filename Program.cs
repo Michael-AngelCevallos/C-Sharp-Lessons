@@ -676,26 +676,36 @@ namespace C_Sharp_Lessons
             double num2 = 0;
             double result = 0;
             
-            // 3rd - ask for USER input
-            Console.WriteLine("Enter Number 1: ");
-            num1 = Convert.ToDouble(Console.ReadLine()); // Converts user input for num1 to a double variable
-
-            //4th - do the same for num2 variable
-            Console.WriteLine("Enter Number 2: ");
-            num2 = Convert.ToDouble(Console.ReadLine());
             
-            // 5th - Console Write the option for the user to enter their option
+            
+            // 3rd - Get USERS 1st input and store it
+            Console.WriteLine("Enter Number 1: "); // ask for users first number
+            num1 = Convert.ToDouble(Console.ReadLine()); // Stores Users first number
+
+            //4th - Get Users 2nd input and Store it
+            Console.WriteLine("Enter Number 2: ");// ask 
+            num2 = Convert.ToDouble(Console.ReadLine()); // stores it
+            
+            // 5th - Enter your numbers prompt: 
             Console.WriteLine("Enter your numbers : ");
           
             
-            //6th - give options
+            // 6th - Give USER Options with what to do with numbers in CONSOLE
             Console.WriteLine();
             Console.WriteLine("+ Add: ");
             Console.WriteLine("- Subtract: ");
             Console.WriteLine("* Multipy: ");
             Console.WriteLine("/ Divide: ");
             
+            // 7th - Make Swith Staement COncept to handle choices
+            switch (Console.ReadLine())
+            {
+                case ""
+            }
+
             
+
+
 
 
 
