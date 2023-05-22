@@ -670,6 +670,9 @@ namespace C_Sharp_Lessons
             Console.WriteLine("-----------------------------------"); // added dashes to console to stand out
             Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGINNING OF THE RUN
             Console.WriteLine("-----------------------------------"); // added for visual aesthetics
+            
+            
+            
             do
             {
 
@@ -731,7 +734,7 @@ namespace C_Sharp_Lessons
                 }
 
 
-                Console.WriteLine("Play Again?: Enter -> (Y/N");
+                Console.WriteLine("Play Again?: Enter -> (Y/N)");
 
             } while (Console.ReadLine().ToUpper() == "Y");
 
@@ -740,8 +743,7 @@ namespace C_Sharp_Lessons
         }
         
     }
-}
-        
+
     
 
 
