@@ -732,24 +732,12 @@ namespace C_Sharp_Lessons
 
 
                 Console.WriteLine("Play Again?: Enter -> (Y/N");
-                answer1 = Console.ReadLine();
-                answer1 = answer1.ToUpper();
 
-                if (answer1 == "Y")
-                {
-                    playAgain2 = true;
-                }
-                else
-                {
-                    playAgain2 = false;
+            } while()
 
-                }
-
-
-                Console.WriteLine("Good Game! GoodBye!");
-            
         }
         }
+        
     }
 }
         
