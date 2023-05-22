@@ -667,76 +667,96 @@ namespace C_Sharp_Lessons
             // CALCULATOR PROGRAM
 
             // 1st - : START BY WRITING A STATEMENT TO LET USER KNOW WHAT IS BEING RUN
-            Console.WriteLine("-----------------------------------"); // added dashes to console to stand out
-            Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGINNING OF THE RUN
-            Console.WriteLine("-----------------------------------"); // added for visual aesthetics
+            // Console.WriteLine("-----------------------------------"); // added dashes to console to stand out
+            // Console.WriteLine("CALCULATOR PROGRAM"); // WRITES THIS TEXT TO TERMINAL AT THE BEGINNING OF THE RUN
+            // Console.WriteLine("-----------------------------------"); // added for visual aesthetics
+            //
+            //
+            //
+            // do
+            // {
+            //
+            //
+            //     // 2nd - START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
+            //     double num1 = 0; // sets sequence to zero
+            //     double num2 = 0;
+            //     double result = 0; // This Variable is used to take in users selection of operation
+            //     bool playAgain2 = true;
+            //     String answer1;
+            //
+            //
+            //
+            //     // 3rd - Get USERS 1st input and store it
+            //     Console.WriteLine("Enter Number 1: "); // ask for users first number
+            //     num1 = Convert.ToDouble(Console.ReadLine()); // Stores Users first number
+            //
+            //     //4th - Get Users 2nd input and Store it
+            //     Console.WriteLine("Enter Number 2: "); // ask 
+            //     num2 = Convert.ToDouble(Console.ReadLine()); // stores it
+            //
+            //     // 5th - Enter your numbers prompt: 
+            //     Console.WriteLine("Enter your numbers : ");
+            //
+            //
+            //     // 6th - Give USER Options with what to do with numbers in CONSOLE
+            //     Console.WriteLine();
+            //     Console.WriteLine("+ Add: ");
+            //     Console.WriteLine("- Subtract: ");
+            //     Console.WriteLine("* Multiply: ");
+            //     Console.WriteLine("/ Divide: ");
+            //
+            //     // 7th - Make SWITCH Statement Concept to handle choices
+            //     switch (Console.ReadLine())
+            //     {
+            //         case "+"
+            //             : // <---- Search for the Addition operator in the users input (from cw above) <--------------------------------------------------------
+            //             result = num1 + num2; // Gives the order to ADD the USERS INPUT
+            //             Console.WriteLine($"Your answer of : {num1} + {num2} =  " +
+            //                               result); // Re-iterates the the calculation the was selected by the USER
+            //             break;
+            //         case "-":
+            //             result = num1 - num2; // Gives the order to SUBTRACT the USERS input
+            //             Console.WriteLine($"Your answer of : {num1} - {num2} =  " +
+            //                               result); // Re-iterates the the calculation the was selected by the USER
+            //             break;
+            //         case "*":
+            //             result = num1 * num2; // Gives the order to MULTIPlY the USERS input 
+            //             Console.WriteLine($"Your answer of : {num1} * {num2} =  " +
+            //                               result); // Re-iterates the the calculation the was selected by the USER
+            //             break;
+            //         case "/":
+            //             result = num1 / num2; // Gives the order to DIVIDE the USERS input
+            //             Console.WriteLine($"Your answer of : {num1} / {num2} =  " +
+            //                               result); // Returns Answer & CW of The Operation that was selected USER
+            //             break;
+            //
+            //
+            //     }
+            //
+            //
+            //     Console.WriteLine("Play Again?: Enter -> (Y/N)");
+
+            // } while (Console.ReadLine().ToUpper() == "Y");
+
+
+            //==================================================================================================================================================
+            // ARRAYS ------ A VARIABLE THAT CAN STORE MULTIPLE VALUES
+
+
+            String[] cars = { "Cadillac", "Chevy", "Ferrari" };
+
+            Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
+
+            Console.WriteLine(cars[0]); // returns Cadillac
+            Console.WriteLine(cars[1]); // returns Chevy
+            Console.WriteLine(cars[2]); // returns Ferrari
+            
+            // Change value of an index (Change Ferrari to Tesla)
+            cars[2] = "Tesla";
+            Console.WriteLine(cars[2]); // returns Tesla
             
             
-            
-            do
-            {
 
-
-                // 2nd - START THINKING ABOUT VARIABLES NEEDED FOR PROGRAM AND DECLARE THEM
-                double num1 = 0; // sets sequence to zero
-                double num2 = 0;
-                double result = 0; // This Variable is used to take in users selection of operation
-                bool playAgain2 = true;
-                String answer1;
-
-
-
-                // 3rd - Get USERS 1st input and store it
-                Console.WriteLine("Enter Number 1: "); // ask for users first number
-                num1 = Convert.ToDouble(Console.ReadLine()); // Stores Users first number
-
-                //4th - Get Users 2nd input and Store it
-                Console.WriteLine("Enter Number 2: "); // ask 
-                num2 = Convert.ToDouble(Console.ReadLine()); // stores it
-
-                // 5th - Enter your numbers prompt: 
-                Console.WriteLine("Enter your numbers : ");
-
-
-                // 6th - Give USER Options with what to do with numbers in CONSOLE
-                Console.WriteLine();
-                Console.WriteLine("+ Add: ");
-                Console.WriteLine("- Subtract: ");
-                Console.WriteLine("* Multiply: ");
-                Console.WriteLine("/ Divide: ");
-
-                // 7th - Make SWITCH Statement Concept to handle choices
-                switch (Console.ReadLine())
-                {
-                    case "+"
-                        : // <---- Search for the Addition operator in the users input (from cw above) <--------------------------------------------------------
-                        result = num1 + num2; // Gives the order to ADD the USERS INPUT
-                        Console.WriteLine($"Your answer of : {num1} + {num2} =  " +
-                                          result); // Re-iterates the the calculation the was selected by the USER
-                        break;
-                    case "-":
-                        result = num1 - num2; // Gives the order to SUBTRACT the USERS input
-                        Console.WriteLine($"Your answer of : {num1} - {num2} =  " +
-                                          result); // Re-iterates the the calculation the was selected by the USER
-                        break;
-                    case "*":
-                        result = num1 * num2; // Gives the order to MULTIPlY the USERS input 
-                        Console.WriteLine($"Your answer of : {num1} * {num2} =  " +
-                                          result); // Re-iterates the the calculation the was selected by the USER
-                        break;
-                    case "/":
-                        result = num1 / num2; // Gives the order to DIVIDE the USERS input
-                        Console.WriteLine($"Your answer of : {num1} / {num2} =  " +
-                                          result); // Returns Answer & CW of The Operation that was selected USER
-                        break;
-
-
-                }
-
-
-                Console.WriteLine("Play Again?: Enter -> (Y/N)");
-
-            } while (Console.ReadLine().ToUpper() == "Y");
 
 
         }
