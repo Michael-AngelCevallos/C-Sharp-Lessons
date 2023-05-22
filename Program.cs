@@ -733,7 +733,8 @@ namespace C_Sharp_Lessons
 
                 Console.WriteLine("Play Again?: Enter -> (Y/N");
 
-            } while()
+            } while (Console.ReadLine().ToUpper() == "Y");
+
 
         }
         }
