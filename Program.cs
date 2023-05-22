@@ -754,6 +754,13 @@ namespace C_Sharp_Lessons
             // Change value of an index (Change Ferrari to Tesla)
             cars[2] = "Tesla";
             Console.WriteLine(cars[2]); // returns Tesla
+
+            
+            // Return all values of array with for loop
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
             
             
 
