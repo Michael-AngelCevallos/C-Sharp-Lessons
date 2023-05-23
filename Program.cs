@@ -745,23 +745,23 @@ namespace C_Sharp_Lessons
 
             String[] cars = { "Cadillac", "Chevy", "Ferrari" };
 
-            Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
-
-            Console.WriteLine(cars[0]); // returns Cadillac
-            Console.WriteLine(cars[1]); // returns Chevy
-            Console.WriteLine(cars[2]); // returns Ferrari
-            
-            // Change value of an index (Change Ferrari to Tesla)
-            cars[2] = "Tesla";
-            Console.WriteLine(cars[2]); // returns Tesla
+            // Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
+            //
+            // Console.WriteLine(cars[0]); // returns Cadillac
+            // Console.WriteLine(cars[1]); // returns Chevy
+            // Console.WriteLine(cars[2]); // returns Ferrari
+            //
+            // // Change value of an index (Change Ferrari to Tesla)
+            // cars[2] = "Tesla";
+            // Console.WriteLine(cars[2]); // returns Tesla
 
             
             // Return all values of array with for loop
             for (int i = 0; i < cars.Length; i++)
             {
-                Console.WriteLine(cars[i]);
-            }
-            
+                Console.WriteLine(cars[i]); // returns     Cadillac 
+            }                               //             Chevy 
+                                            //             Ferrari 
             
 
 
