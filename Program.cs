@@ -744,7 +744,7 @@ namespace C_Sharp_Lessons
 
 
             // String[] cars = { "Cadillac", "Chevy", "Ferrari" };
-            
+
 
             // Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
             //
@@ -756,7 +756,7 @@ namespace C_Sharp_Lessons
             // cars[2] = "Tesla";
             // Console.WriteLine(cars[2]); // returns Tesla
 
-            
+
             // Return all values of array with for loop
             // for (int i = 0; i < cars.Length; i++)
             // {
@@ -780,16 +780,29 @@ namespace C_Sharp_Lessons
             //     Console.WriteLine(cars1[j]);
             // }
 
-            
+
             //==================================================================================================================================================
-            
+
             // FOR EACH LOOP ---- SIMPLER WAY TO ITERATE OVER AN ARRAY
+
+            // HOWEVER LESS FLEXIBLE THEN REG FOR LOOP
+
+
+            String[] names = { "Mike", "Alex", "Jovan", "Ares" };
+
+
+            foreach (String name in names) // name 'data type' then 'single version of variable' the 'in' then variable
+            {
+                Console.WriteLine(name);
+            }
+        
             
             
             
             
             
-        }
+            
+         }
         }
         
     }
