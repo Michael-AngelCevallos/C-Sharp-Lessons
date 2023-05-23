@@ -801,16 +801,19 @@ namespace C_Sharp_Lessons
             
             // METHOD --------- performs a section of code wheneverit is called or 'invoked'
             //                  benefit - lets us re-use code without writing it multiple times
-            
-            
+
         
-            
-            
-            
-            
-            
-            
-         }
+
+        }
+
+        static void singHappyBirthday() // this invokes a method from above main method, must be declared outside main brackets
+        {
+            Console.WriteLine("Happy birthday to you");
+            Console.WriteLine("Happy birthday to you");
+            Console.WriteLine("Happy birthday to you");
+            Console.WriteLine("Happy birthday DEAR you!");
+            Console.WriteLine("Happy birthday to you");
+        }
         }
         
     }
