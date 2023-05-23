@@ -803,18 +803,20 @@ namespace C_Sharp_Lessons
             //                  benefit - lets us re-use code without writing it multiple times
 
             String name = "Bro";
+            int age = 29;
             
-            singHappyBirthday(name); // invoke/call method(or function) outside 
+            singHappyBirthday(name, age); // invoke/call method(or function) outside 
 
         }
         
-        static void singHappyBirthday(String name) // this invokes a method from above main method, must be declared outside main brackets
+        static void singHappyBirthday(String name, int age) // this invokes a method from above main method, must be declared outside main brackets
         {
             Console.WriteLine("Happy birthday to you");
             Console.WriteLine("Happy birthday to you");
             Console.WriteLine("Happy birthday to you");
             Console.WriteLine("Happy birthday DEAR " + name + "!");
             Console.WriteLine("Happy birthday to you");
+            Console.WriteLine("Congratulations! Your " + age + ", years old!");
         }
         }
         
