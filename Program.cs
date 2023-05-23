@@ -788,13 +788,21 @@ namespace C_Sharp_Lessons
             // HOWEVER LESS FLEXIBLE THEN REG FOR LOOP
 
 
-            String[] names = { "Mike", "Alex", "Jovan", "Ares" };
-
-
-            foreach (String name in names) // name 'data type' then 'single version of variable' the 'in' then variable
-            {
-                Console.WriteLine(name);
-            }
+            // String[] names = { "Mike", "Alex", "Jovan", "Ares" };
+            //
+            //
+            // foreach (String name in names) // name 'data type' then 'single version of variable' the 'in' then variable
+            // {
+            //     Console.WriteLine(name);
+            // }
+            
+            
+            //===================================================================================================================================================
+            
+            // METHOD --------- performs a section of code wheneverit is called or 'invoked'
+            //                  benefit - lets us re-use code without writing it multiple times
+            
+            
         
             
             
