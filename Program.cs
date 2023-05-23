@@ -801,11 +801,14 @@ namespace C_Sharp_Lessons
             
             // METHOD --------- performs a section of code whenever it is called or 'invoked'
             //                  benefit - lets us re-use code without writing it multiple times
-
+            
+            //Variables We could chose to USE or NOT use
             String name = "Bro";
             int age = 29;
             
-            singHappyBirthday(name, age); // invoke/call method(or function) outside 
+            
+            //invoked method singHappyBirthday, allows us to call multiple sec of code (such as happy birthday lyrics below)
+            singHappyBirthday(name, age); // invoke/call method(or function) outside, add parameter syou want to use in the invocation
 
         }
         
