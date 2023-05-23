@@ -743,7 +743,7 @@ namespace C_Sharp_Lessons
             // ARRAYS ------ A VARIABLE THAT CAN STORE MULTIPLE VALUES (ARRAYS HAVE A FIXED SIZE!!!!!
 
 
-            String[] cars = { "Cadillac", "Chevy", "Ferrari" };
+            // String[] cars = { "Cadillac", "Chevy", "Ferrari" };
             
 
             // Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
@@ -758,26 +758,37 @@ namespace C_Sharp_Lessons
 
             
             // Return all values of array with for loop
-            for (int i = 0; i < cars.Length; i++)
-            {
-                Console.WriteLine(cars[i]); // returns     Cadillac 
-            }                               //             Chevy 
-                                            //             Ferrari 
+            // for (int i = 0; i < cars.Length; i++)
+            // {
+            //     Console.WriteLine(cars[i]); // returns     Cadillac 
+            // }                               //             Chevy 
+            //                                 //             Ferrari 
+            //
+            //                                 Console.WriteLine();// usede for a space in terminal
+            // //Declare A FIXED ARRAY
+            // // String[] cars1 = { "Chevy", "Lambo", "Jeep" };
+            // String[] cars1 = new string[3]; // Fixed number
+            //
+            // // Add names of cars to each index 
+            // cars1[0] = "Jeep";
+            // cars1[1] = "Lambo";
+            // cars1[2] = "Tesla";
+            //
+            // // loop through array to name all cars in cars1 array
+            // for (int j = 0; j < cars1.Length; j++)
+            // {
+            //     Console.WriteLine(cars1[j]);
+            // }
 
-                                            Console.WriteLine();// usede for a space in terminal
-            //Declare An Array
-            // String[] cars1 = { "Chevy", "Lambo", "Jeep" };
-            String[] cars1 = new string[3];
-
-            cars1[0] = "Jeep";
-            cars1[1] = "Lambo";
-            cars1[2] = "Tesla";
-
-            for (int j = 0; j < cars1.Length; j++)
-            {
-                Console.WriteLine(cars1[j]);
-            }
-
+            
+            //==================================================================================================================================================
+            
+            // FOR EACH LOOP ---- SIMPLER WAY TO ITERATE OVER AN ARRAY
+            
+            
+            
+            
+            
         }
         }
         
