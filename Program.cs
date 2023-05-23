@@ -740,10 +740,11 @@ namespace C_Sharp_Lessons
 
 
             //==================================================================================================================================================
-            // ARRAYS ------ A VARIABLE THAT CAN STORE MULTIPLE VALUES
+            // ARRAYS ------ A VARIABLE THAT CAN STORE MULTIPLE VALUES (ARRAYS HAVE A FIXED SIZE!!!!!
 
 
             String[] cars = { "Cadillac", "Chevy", "Ferrari" };
+            
 
             // Console.WriteLine(cars); // <----- WILL RETURN DATA TYPE OR (System.String[]) to console
             //
@@ -762,9 +763,20 @@ namespace C_Sharp_Lessons
                 Console.WriteLine(cars[i]); // returns     Cadillac 
             }                               //             Chevy 
                                             //             Ferrari 
-            
 
+                                            Console.WriteLine();// usede for a space in terminal
+            //Declare An Array
+            // String[] cars1 = { "Chevy", "Lambo", "Jeep" };
+            String[] cars1 = new string[3];
 
+            cars1[0] = "Jeep";
+            cars1[1] = "Lambo";
+            cars1[2] = "Tesla";
+
+            for (int j = 0; j < cars1.Length; j++)
+            {
+                Console.WriteLine(cars1[j]);
+            }
 
         }
         }
