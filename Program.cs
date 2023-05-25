@@ -828,10 +828,15 @@ namespace C_Sharp_Lessons
             // 4. add variables x and y 
             double x;
             double y;
+            double result;
             Console.WriteLine("Enter your first number : ");
+            x = Convert.ToDouble(Console.ReadLine()); // 5. Need to convert users input to double
+            Console.WriteLine("Enter your second number : ");
+            y = Convert.ToDouble(Console.ReadLine());
+            
 
         }
-        // IMPORTANT <==== METHOD NEEDS TRO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
+        // IMPORTANT <==== METHOD NEEDS TO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
         static double Multiply(double x, double y){ // 1. start method, needs to return 'double' state that after static
 
             double z = x * y; // 2. make a variable (z) to take in both variables(x,y) in order to multiply
