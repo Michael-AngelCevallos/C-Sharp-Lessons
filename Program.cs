@@ -795,32 +795,44 @@ namespace C_Sharp_Lessons
             // {
             //     Console.WriteLine(name);
             // }
-            
-            
-            //===================================================================================================================================================
-            
-            // METHOD --------- performs a section of code whenever it is called or 'invoked'
-            //                  benefit - lets us re-use code without writing it multiple times
-            
-            //Variables We could chose to USE or NOT use
-            String name = "Bro";
-            int age = 29;
-            
-            
-            //invoked method singHappyBirthday, allows us to call multiple sec of code (such as happy birthday lyrics below)
-            singHappyBirthday(name, age); // invoke/call method(or function) outside, add parameter syou want to use in the invocation
 
-        }
+
+            //===================================================================================================================================================
+
+            //     // METHOD --------- performs a section of code whenever it is called or 'invoked'
+            //     //                  benefit - lets us re-use code without writing it multiple times
+            //     
+            //     //Variables We could chose to USE or NOT use ( NEEDED TO BE STATED IN THE MAIN METHOD)
+            //     String name = "Bro";
+            //     int age = 29;
+            //     
+            //     
+            //     //invoked method singHappyBirthday, allows us to call multiple sec of code (such as happy birthday lyrics below)
+            //     singHappyBirthday(name, age); // invoke/call method(or function) outside, add parameter syou want to use in the invocation
+            //
+            // }
+            //
+            // static void singHappyBirthday(String name, int age) // this invokes a method from above main method, must be declared outside main brackets
+            // {
+            //     Console.WriteLine("Happy birthday to you");
+            //     Console.WriteLine("Happy birthday to you");
+            //     Console.WriteLine("Happy birthday to you");
+            //     Console.WriteLine("Happy birthday DEAR " + name + "!");
+            //     Console.WriteLine("Happy birthday to you");
+            //     Console.WriteLine("Congratulations! Your " + age + ", years old!");
+        // }
+            
+        //======================================================================================================================================================
+        // Return - 
+
         
-        static void singHappyBirthday(String name, int age) // this invokes a method from above main method, must be declared outside main brackets
-        {
-            Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Happy birthday DEAR " + name + "!");
-            Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Congratulations! Your " + age + ", years old!");
-        }
+        
+        
+        
+    }
+        
+        
+        
         }
         
     }
