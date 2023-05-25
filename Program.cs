@@ -825,12 +825,17 @@ namespace C_Sharp_Lessons
             //======================================================================================================================================================
             // Return - returns data back to the place where the method is invoked
             
+            // 4. add variables x and y 
+            double x;
+            double y;
+            Console.WriteLine("Enter your first number : ");
+
         }
         // IMPORTANT <==== METHOD NEEDS TRO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
         static double Multiply(double x, double y){ // 1. start method, needs to return 'double' state that after static
 
             double z = x * y; // 2. make a variable (z) to take in both variables(x,y) in order to multiply
-            return z;
+            return z; // 3. state your return statement
 
 
 
