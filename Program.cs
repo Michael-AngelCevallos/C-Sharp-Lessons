@@ -820,15 +820,20 @@ namespace C_Sharp_Lessons
             //     Console.WriteLine("Happy birthday DEAR " + name + "!");
             //     Console.WriteLine("Happy birthday to you");
             //     Console.WriteLine("Congratulations! Your " + age + ", years old!");
-        // }
-            
-        //======================================================================================================================================================
-        // Return - 
+            // }
 
-        
-        
-        
-        
+            //======================================================================================================================================================
+            // Return - returns data back to the place where the method is invoked
+
+        }
+        // IMPORTANT <==== METHOD NEEDS TRO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
+        static void Multiply(){
+            
+
+
+
+
+
     }
         
         
