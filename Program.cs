@@ -830,11 +830,10 @@ namespace C_Sharp_Lessons
         static double Multiply(double x, double y){ // 1. start method, needs to return 'double' state that after static
 
             double z = x * y; // 2. make a variable (z) to take in both variables(x,y) in order to multiply
-            
-            
+            return z;
 
-        Multiply(5,3);
-        return z;
+
+
 
 
 
