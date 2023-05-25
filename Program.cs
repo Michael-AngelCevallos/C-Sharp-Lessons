@@ -833,7 +833,11 @@ namespace C_Sharp_Lessons
             x = Convert.ToDouble(Console.ReadLine()); // 5. Need to convert users input to double
             Console.WriteLine("Enter your second number : ");
             y = Convert.ToDouble(Console.ReadLine());
-            
+
+            result = Multiply(x,y); // 6. invoke Multiply Method, add in parameters
+
+            Console.WriteLine("Your answer is " + result);
+
 
         }
         // IMPORTANT <==== METHOD NEEDS TO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
