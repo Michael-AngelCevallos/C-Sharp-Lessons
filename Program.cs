@@ -856,20 +856,29 @@ namespace C_Sharp_Lessons
 
     // 1. State variable in MAIN Method
     double total;
+   
     
-    // 2. state what total takes in
-    total = Multiply(x, y, z);
+    // 2. state what total takes in ( now Multiply will work with 2 or 3 parameters when called)
+    total = Multiply(2,3,4);
+    // total = Multiply(4, 5);
 
 
-
+    Console.WriteLine(total);
+   
 
         }
 
+        // 3. make Multiply Method outside main
         static double Multiply(double a, double b)
         {
             return a * b;
         }
         
+        // 4. make multiply method that takes in 3 parameters
+        static double Multiply(double a, double b, double c)
+        {
+            return a * b * c;
+        }
         
         }
         
