@@ -854,16 +854,21 @@ namespace C_Sharp_Lessons
 //                      name + parameters = signature
 //                      methods must have a unique signature
 
-    //1. State variable in MAIN Method
+    // 1. State variable in MAIN Method
     double total;
     
-    
+    // 2. state what total takes in
+    total = Multiply(x, y, z);
 
 
 
 
         }
-        
+
+        static double Multiply(double a, double b)
+        {
+            return a * b;
+        }
         
         
         }
