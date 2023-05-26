@@ -854,12 +854,15 @@ namespace C_Sharp_Lessons
 //                      name + parameters = signature
 //                      methods must have a unique signature
 
+    //1. State variable in MAIN Method
+    double total;
+    
+    
 
 
 
-        
 
-    }
+        }
         
         
         
