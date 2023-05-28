@@ -893,12 +893,16 @@ namespace C_Sharp_Lessons
                    // prices) and returns the total, then tell customer you have to pay the specific total
 
                    //.1 Make a variable within the main  that will add all prices together
+                   // this variable will taken a method called CheckOut which we will call later
                    double total = CheckOut(3.99, 5.75, 15);
 
-
-
-
-
+        }
+        
+        // 2. Make Checkout Method With PARAMS keyword in parameter
+        static double CheckOut(params double[] prices)
+        {
+             
+            return prices;
         }
     }
         
