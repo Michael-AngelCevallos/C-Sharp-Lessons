@@ -824,63 +824,70 @@ namespace C_Sharp_Lessons
 
             //======================================================================================================================================================
             // Return - returns data back to the place where the method is invoked
-            
+
             // 4. add variables x and y 
-        //     double x;
-        //     double y;
-        //     double result;
-        //     Console.WriteLine("Enter your first number : ");
-        //     x = Convert.ToDouble(Console.ReadLine()); // 5. Need to convert users input to double
-        //     Console.WriteLine("Enter your second number : ");
-        //     y = Convert.ToDouble(Console.ReadLine());
-        //
-        //     result = Multiply(x,y); // 6. invoke Multiply Method, add in parameters
-        //
-        //     Console.WriteLine("Your answer is " + result);
-        //
-        //
-        // }
-        // // IMPORTANT <==== METHOD NEEDS TO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
-        // static double Multiply(double x, double y)
-        // {
-        //     // 1. start method, needs to return 'double' state that after static
-        //
-        //     double z = x * y; // 2. make a variable (z) to take in both variables(x,y) in order to multiply
-        //     return z; // 3. state your return statement
+            //     double x;
+            //     double y;
+            //     double result;
+            //     Console.WriteLine("Enter your first number : ");
+            //     x = Convert.ToDouble(Console.ReadLine()); // 5. Need to convert users input to double
+            //     Console.WriteLine("Enter your second number : ");
+            //     y = Convert.ToDouble(Console.ReadLine());
+            //
+            //     result = Multiply(x,y); // 6. invoke Multiply Method, add in parameters
+            //
+            //     Console.WriteLine("Your answer is " + result);
+            //
+            //
+            // }
+            // // IMPORTANT <==== METHOD NEEDS TO BE INVOKED OUTSIDE MAIN METHOD(bracket above this comment is the end of the main method)
+            // static double Multiply(double x, double y)
+            // {
+            //     // 1. start method, needs to return 'double' state that after static
+            //
+            //     double z = x * y; // 2. make a variable (z) to take in both variables(x,y) in order to multiply
+            //     return z; // 3. state your return statement
 
 //=====================================================================================================
 
 // Method Overloading - methods share SAME NAME, But DIFFERENT PARAMETERS
 //                      name + parameters = signature
 //                      methods must have a unique signature
+            //
+            // // 1. State variable in MAIN Method
+            // double total;
+            //
+            //
+            // // 2. state what total takes in ( now Multiply will work with 2 or 3 parameters when called)
+            // total = Multiply(2,3,4);
+            // // total = Multiply(4, 5);
+            //
+            //
+            // Console.WriteLine(total);
+            //
+            //
+            //     }
+            //
+            //     // 3. make Multiply Method outside main
+            //     static double Multiply(double a, double b)
+            //     {
+            //         return a * b;
+            //     }
+            //     
+            //     // 4. make multiply method that takes in 3 parameters
+            //     static double Multiply(double a, double b, double c)
+            //     {
+            //         return a * b * c;
+            //     }
 
-    // 1. State variable in MAIN Method
-    double total;
-   
-    
-    // 2. state what total takes in ( now Multiply will work with 2 or 3 parameters when called)
-    total = Multiply(2,3,4);
-    // total = Multiply(4, 5);
-
-
-    Console.WriteLine(total);
-   
-
+            
+ //====================================================================================================
+ 
+ // Param keyword -- a method parameter that takes in a variable number of arguments
+                  // - The parameter type must be single - dimensional array
+            
         }
-
-        // 3. make Multiply Method outside main
-        static double Multiply(double a, double b)
-        {
-            return a * b;
-        }
-        
-        // 4. make multiply method that takes in 3 parameters
-        static double Multiply(double a, double b, double c)
-        {
-            return a * b * c;
-        }
-        
-        }
+    }
         
     }
 
