@@ -901,6 +901,13 @@ namespace C_Sharp_Lessons
         // 2. Make Checkout Method With PARAMS keyword in parameter
         static double CheckOut(params double[] prices)
         {
+             // 3. Make a local variable to iterate through (total)
+             double total = 0; // starts the sequence at 0
+             // 4. Use foreach loop to iterate over each element in array
+             foreach (double price in prices)
+             {
+                 
+             }
              
             return prices;
         }
