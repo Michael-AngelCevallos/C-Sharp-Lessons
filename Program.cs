@@ -896,6 +896,9 @@ namespace C_Sharp_Lessons
                    // this variable will taken a method called CheckOut which we will call later
                    double total = CheckOut(3.99, 5.75, 15);
 
+                   // 6. Lastly retutn the total to the console
+                   Console.WriteLine(total);
+
         }
         
         // 2. Make Checkout Method With PARAMS keyword in parameter
@@ -906,10 +909,11 @@ namespace C_Sharp_Lessons
              // 4. Use foreach loop to iterate over each element in array
              foreach (double price in prices)
              {
-                 
+                 total = total + price;
              }
              
-            return prices;
+             // 5. return total
+            return total;
         }
     }
         
