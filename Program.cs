@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Threading.Channels;
 
@@ -886,13 +887,18 @@ namespace C_Sharp_Lessons
  // Param keyword -- a method parameter that takes in a variable number of arguments
                   // - The parameter type must be single - dimensional array
                   // ALLOWS US to call a method with various amounts of variable within ONE method  
-
-                  /** Example make an Online Store, with a Method to Checkout(Which adds customers
+                  
+                  
+ //===========>>   Example make an Online Store, with a Method to Checkout(Which adds customers
                    // prices) and returns the total, then tell customer you have to pay the specific total
-                   //
-                   
-            
-            
+
+                   //.1 Make a variable within the main  that will add all prices together
+                   double total = CheckOut(3.99, 5.75, 15);
+
+
+
+
+
         }
     }
         
