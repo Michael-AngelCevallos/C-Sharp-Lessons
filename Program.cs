@@ -970,21 +970,38 @@ namespace C_Sharp_Lessons
         // }
 
 //=====================================================================================================        
-        // CONDITIONAL OPERATORS - USED IN CONDITIONAL ASSIGNMENT DEPENDING IF CONDITION IS TRUE/FALSE
+        // // CONDITIONAL OPERATORS - USED IN CONDITIONAL ASSIGNMENT DEPENDING IF CONDITION IS TRUE/FALSE
+        //
+        // // (condition) ? x : y
+        //
+        //
+        // // 1. Make variables 
+        // double temperature = 20;
+        // // String message;
+        // //
+        // // // 2. Assign variable Message with a condition for temperature, add ?, then messages for true/false
+        // // message = (temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside";
+        // //
+        // // // 3. Added write message to variable
+        // // Console.WriteLine(message);
+        //
+        //
+        //
+        //
+        // // OPTIONAL One Liner -  can get rid of message variable and just add logic into CW
+        // Console.WriteLine((temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside");
+
+ //================================================================================================
+ 
+        // STRING INTERPOLATION - ALLOWS US TO INSERT VARIABLES INTO A STRING LITERAL
+        //                        PRECEDE STRING LITERAL WITH $
+        //                        {} ARE PLACEHOLDERS
         
-        // (condition) ? x : y
-
+        // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
         
-        // 1. Make variables 
-        double temperature = 10;
-        String message;
-
-        // 2. Assign variable Message with a condition for temperature, add ?, then messages for true/false
-        message = (temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside";
-
-        // 3. Added write message to variable
-        Console.WriteLine(message);
-
+        
+        // 1. Make v ariables for firstname, lastname and age
+        
         }
     }
         
