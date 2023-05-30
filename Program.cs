@@ -916,59 +916,68 @@ namespace C_Sharp_Lessons
         //     return total;
         // }
 //=======================================================================================================
-        // Exception Handling - errors that occur during an execution
+        // // Exception Handling - errors that occur during an execution
+        //
+        // // TYPES OF EXCEPTIONS
+        //
+        // // try = try some code that is considered "dangerous"
+        // // catch = catches and handles exceptions when they occur
+        // // finally = ALWAYS executes regardless if exception is caught or not
+        //
+        // // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
+        //
+        // // 1. make variables needed to divide ( 2 numbers, and a variable for result)
+        // int x; // takes in users first number
+        // int y; //  takes in users second number
+        // int result; // takes in answer
+        //
+        // // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
+        // try
+        // {
+        //
+        //     // 2. Start setting up for user in put for first number
+        //     Console.WriteLine("What is Your First Number: ");
+        //     x = Convert.ToInt32(Console.ReadLine()); // CONVERT TO will accept the users input as a double
+        //
+        //     // 3. Start setting up for second number
+        //     Console.WriteLine("What is Your Second Number : ");
+        //     y = Convert.ToInt32(Console.ReadLine());
+        //
+        //     // 4. State logic for dividing user numbers
+        //     result = x / y;
+        //
+        //     // 5. Return the answer to the console
+        //     Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
+        //
+        //     // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
+        // }
+        // catch (FormatException
+        //        e) // 8. write in a FormatException(throws for different data types) parameter with letter e
+        // {
+        //     Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
+        // }
+        // catch (DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
+        // {
+        //     Console.WriteLine("Cannot Divide By Zero!!");
+        // }
+        // catch (Exception e) // 11. Good practice to add a Catch All just in case we missed something
+        // {
+        //     Console.WriteLine("Something Went Wrong!");
+        // }
+        // finally // 12. Add a finally block to execute a message at the end no matter what
+        // {
+        //     Console.WriteLine("Thanks for Trying!");
+        // }
+
+//=====================================================================================================        
+        // CONDITIONAL OPERATORS - USED IN CONDITIONAL ASSIGNMENT DEPENDING IF CONDITION IS TRUE/FALSE
         
-        // TYPES OF EXCEPTIONS
+        // (condition) ? x : y
+
         
-        // try = try some code that is considered "dangerous"
-        // catch = catches and handles exceptions when they occur
-        // finally = ALWAYS executes regardless if exception is caught or not
-        
-        // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
-        
-        // 1. make variables needed to divide ( 2 numbers, and a variable for result)
-        int x; // takes in users first number
-        int y; //  takes in users second number
-        int result; // takes in answer
-        
-        // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
-        try
-        {
-
-            // 2. Start setting up for user in put for first number
-            Console.WriteLine("What is Your First Number: ");
-            x = Convert.ToInt32(Console.ReadLine()); // CONVERT TO will accept the users input as a double
-
-            // 3. Start setting up for second number
-            Console.WriteLine("What is Your Second Number : ");
-            y = Convert.ToInt32(Console.ReadLine());
-
-            // 4. State logic for dividing user numbers
-            result = x / y;
-
-            // 5. Return the answer to the console
-            Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
-
-            // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
-        }
-        catch (FormatException
-               e) // 8. write in a FormatException(throws for different data types) parameter with letter e
-        {
-            Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
-        }
-        catch (DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
-        {
-            Console.WriteLine("Cannot Divide By Zero!!");
-        }
-        catch (Exception e) // 11. Good practice to add a Catch All just in case we missed something
-        {
-            Console.WriteLine("Something Went Wrong!");
-        }
-        finally // 12. Add a finally block to execute a message at the end no matter what
-        {
-            Console.WriteLine("Thanks for Trying!");
-        }
-
+        // 1. Make variables 
+        double temperature = 20;
+        String message;
         
         
         
