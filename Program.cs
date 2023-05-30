@@ -976,11 +976,15 @@ namespace C_Sharp_Lessons
 
         
         // 1. Make variables 
-        double temperature = 20;
+        double temperature = 10;
         String message;
-        
-        
-        
+
+        // 2. Assign variable Message with a condition for temperature, add ?, then messages for true/false
+        message = (temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside";
+
+        // 3. Added write message to variable
+        Console.WriteLine(message);
+
         }
     }
         
