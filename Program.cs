@@ -931,21 +931,31 @@ namespace C_Sharp_Lessons
         double y; //  takes in users second number
         double result; // takes in answer
         
-        // 2. Start setting up for user in put for first number
-        Console.WriteLine("What is Your First Number: ");
-        x = Convert.ToDouble(Console.ReadLine()); // CONVERT TO will accept the users input as a double
-        
-        // 3. Start setting up for second number
-        Console.WriteLine("What is Your Second Number : ");
-        y = Convert.ToDouble(Console.ReadLine());
-        
-        // 4. State logic for dividing user numbers
-        result = x / y;
-        
-        // 5. Return the answer to the console
-        Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
+        // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
+        try
+        {
 
-        
+            // 2. Start setting up for user in put for first number
+            Console.WriteLine("What is Your First Number: ");
+            x = Convert.ToDouble(Console.ReadLine()); // CONVERT TO will accept the users input as a double
+
+            // 3. Start setting up for second number
+            Console.WriteLine("What is Your Second Number : ");
+            y = Convert.ToDouble(Console.ReadLine());
+
+            // 4. State logic for dividing user numbers
+            result = x / y;
+
+            // 5. Return the answer to the console
+            Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
+
+            // 7. end the try catch with a catch
+        }
+        catch(FormatException e) // 8. write in a FormatException(throws for different data types) parameter with letter e
+        {
+            Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
+        }
+
         }
     }
         
