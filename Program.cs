@@ -951,13 +951,22 @@ namespace C_Sharp_Lessons
 
             // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
         }
-        catch(FormatException e) // 8. write in a FormatException(throws for different data types) parameter with letter e
+        catch (FormatException
+               e) // 8. write in a FormatException(throws for different data types) parameter with letter e
         {
             Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
         }
-        catch(DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
+        catch (DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
         {
             Console.WriteLine("Cannot Divide By Zero!!");
+        }
+        catch (Exception e) // 11. Good practice to add a Catch All just in case we missed something
+        {
+            Console.WriteLine("Something Went Wrong!");
+        }
+        finally // 12. Add a finally block to execute a message at the end no matter what
+        {
+            Console.WriteLine("Thanks for Trying!");
         }
 
         
