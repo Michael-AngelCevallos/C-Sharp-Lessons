@@ -993,25 +993,48 @@ namespace C_Sharp_Lessons
 
  //================================================================================================
  
-        // STRING INTERPOLATION - ALLOWS US TO INSERT VARIABLES INTO A STRING LITERAL
-        //                        PRECEDE STRING LITERAL WITH $
-        //                        {} ARE PLACEHOLDERS
+        // // STRING INTERPOLATION - ALLOWS US TO INSERT VARIABLES INTO A STRING LITERAL
+        // //                        PRECEDE STRING LITERAL WITH $
+        // //                        {} ARE PLACEHOLDERS
+        //
+        // // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
+        //
+        //
+        // // 1. Make variables for firstname, lastname and age
+        // String firstName = "Mike";
+        // String lastName = "Cevallos";
+        // int age = 29;
+        //
+        // // //  Normal Version ( WITHOUT String Literals)
+        // // Console.WriteLine("Hello " + firstName + " " + lastName + ",");
+        // // Console.WriteLine("You are " +  age + " years old.");
+        //
+        // // 2. Add String literals to message
+        // // -  Start With CW , Add $, place variables in {}
+        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age} years old!");
+        //
+        // // SIDE NOTE -  If you add a number after your variable it will add spaces in the console message 
+        // //example for age (Positive numbers move the spaces to the left) -
+        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,5} years old!");
+        //
+        // // Can also add negative number to move spaces right
+        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,-5} years old!");
         
-        // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
-        
-        
-        // 1. Make variables for firstname, lastname and age
-        String firstName = "Mike";
-        String lastName = "Cevallos";
-        int age = 29;
+ //==================================================================================================
+ 
+        // MULTI-DIMENSIONAL ARRAYS - ARRAY OF ARRAYS
 
-        // //  Normal Version ( WITHOUT String Literals)
-        // Console.WriteLine("Hello " + firstName + " " + lastName + ",");
-        // Console.WriteLine("You are " +  age + " years old.");
+        // 1. Make Array Variables
+        String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
+        String[] cadillac = { "Escalade", "Deville", "CTS" };
+        String[] ford = { "Bronco", "F-150", "Excursion" };
         
-        // 2. Add String literals to message
-        // -  Start With CW , Add $, place variables in {}
-        Console.WriteLine($"Hello {firstName} {lastName}! You are {age} years old!");
+        
+
+
+
+
+
 
         }
     }
