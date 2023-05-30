@@ -1000,8 +1000,19 @@ namespace C_Sharp_Lessons
         // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
         
         
-        // 1. Make v ariables for firstname, lastname and age
+        // 1. Make variables for firstname, lastname and age
+        String firstName = "Mike";
+        String lastName = "Cevallos";
+        int age = 29;
+
+        // //  Normal Version ( WITHOUT String Literals)
+        // Console.WriteLine("Hello " + firstName + " " + lastName + ",");
+        // Console.WriteLine("You are " +  age + " years old.");
         
+        // 2. Add String literals to message
+        // -  Start With CW , Add $, place variables in {}
+        Console.WriteLine($"Hello {firstName} {lastName}! You are {age} years old!");
+
         }
     }
         
