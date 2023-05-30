@@ -916,10 +916,15 @@ namespace C_Sharp_Lessons
         //     return total;
         // }
 //=======================================================================================================
-        // Exception - errors that occur during an execution
+        // Exception Handling - errors that occur during an execution
         
-        //TYPES OF EXECEPTIONS
-        //try = try some code that is considered "dangerous"
+        //TYPES OF EXCEPTIONS
+        
+        // try = try some code that is considered "dangerous"
+        // catch = catches and handles exceptions when they occur
+        // finally = ALWAYS executes regardless if exception is caught or not
+        
+        
         
     }
     }
