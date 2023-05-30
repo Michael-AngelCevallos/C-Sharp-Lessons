@@ -932,10 +932,14 @@ namespace C_Sharp_Lessons
         double result; // takes in answer
         
         // 2. Start setting up for user in put for first number
-        Console.WriteLine("What is your first number: ");
+        Console.WriteLine("What is Your First Number: ");
         x = Convert.ToDouble(Console.ReadLine()); // CONVERT TO will accept the users input as a double
         
         // 3. Start setting up for second number
+        Console.WriteLine("What is Your Second Number : ");
+        y = Convert.ToDouble(Console.ReadLine());
+        
+        
 
         }
     }
