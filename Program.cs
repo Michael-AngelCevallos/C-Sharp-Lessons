@@ -941,7 +941,11 @@ namespace C_Sharp_Lessons
         
         // 4. State logic for dividing user numbers
         result = x / y;
+        
+        // 5. Return the answer to the console
+        Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
 
+        
         }
     }
         
