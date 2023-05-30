@@ -894,27 +894,34 @@ namespace C_Sharp_Lessons
 
                    //.1 Make a variable within the main  that will add all prices together
                    // this variable will taken a method called CheckOut which we will call later
-                   double total = CheckOut(3.99, 5.75, 15);
-
-                   // 6. Lastly retutn the total to the console
-                   Console.WriteLine(total);
-
-        }
+        //            double total = CheckOut(3.99, 5.75, 15);
+        //
+        //            // 6. Lastly retutn the total to the console
+        //            Console.WriteLine(total);
+        //
+        // }
+        //
+        // // 2. Make Checkout Method With PARAMS keyword in parameter
+        // static double CheckOut(params double[] prices)
+        // {
+        //     // 3. Make a local variable to iterate through (total)
+        //     double total = 0; // starts the sequence at 0
+        //     // 4. Use foreach loop to iterate over each element in array
+        //     foreach (double price in prices)
+        //     {
+        //         total = total + price;
+        //     }
+        //
+        //     // 5. return total
+        //     return total;
+        // }
+//=======================================================================================================
+        // Exception - errors that occur during an execution
         
-        // 2. Make Checkout Method With PARAMS keyword in parameter
-        static double CheckOut(params double[] prices)
-        {
-             // 3. Make a local variable to iterate through (total)
-             double total = 0; // starts the sequence at 0
-             // 4. Use foreach loop to iterate over each element in array
-             foreach (double price in prices)
-             {
-                 total = total + price;
-             }
-             
-             // 5. return total
-            return total;
-        }
+        //TYPES OF EXECEPTIONS
+        //try = try some code that is considered "dangerous"
+        
+    }
     }
         
     }
