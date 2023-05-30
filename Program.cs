@@ -927,9 +927,9 @@ namespace C_Sharp_Lessons
         // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
         
         // 1. make variables needed to divide ( 2 numbers, and a variable for result)
-        double x; // takes in users first number
-        double y; //  takes in users second number
-        double result; // takes in answer
+        int x; // takes in users first number
+        int y; //  takes in users second number
+        int result; // takes in answer
         
         // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
         try
@@ -937,11 +937,11 @@ namespace C_Sharp_Lessons
 
             // 2. Start setting up for user in put for first number
             Console.WriteLine("What is Your First Number: ");
-            x = Convert.ToDouble(Console.ReadLine()); // CONVERT TO will accept the users input as a double
+            x = Convert.ToInt32(Console.ReadLine()); // CONVERT TO will accept the users input as a double
 
             // 3. Start setting up for second number
             Console.WriteLine("What is Your Second Number : ");
-            y = Convert.ToDouble(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
 
             // 4. State logic for dividing user numbers
             result = x / y;
@@ -949,13 +949,20 @@ namespace C_Sharp_Lessons
             // 5. Return the answer to the console
             Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
 
-            // 7. end the try catch with a catch
+            // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
         }
         catch(FormatException e) // 8. write in a FormatException(throws for different data types) parameter with letter e
         {
             Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
         }
+        catch(DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
+        {
+            Console.WriteLine("Cannot Divide By Zero!!");
+        }
 
+        
+        
+        
         }
     }
         
