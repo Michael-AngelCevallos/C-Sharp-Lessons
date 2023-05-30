@@ -927,9 +927,15 @@ namespace C_Sharp_Lessons
         // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
         
         // 1. make variables needed to divide ( 2 numbers, and a variable for result)
-        double x;
-        double y;
-        double result;
+        double x; // takes in users first number
+        double y; //  takes in users second number
+        double result; // takes in answer
+        
+        // 2. Start setting up for user in put for first number
+        Console.WriteLine("What is your first number: ");
+        x = Convert.ToDouble(Console.ReadLine()); // CONVERT TO will accept the users input as a double
+        
+        // 3. Start setting up for second number
 
         }
     }
