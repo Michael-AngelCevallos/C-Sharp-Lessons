@@ -1028,9 +1028,21 @@ namespace C_Sharp_Lessons
         String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
         String[] cadillac = { "Escalade", "Deville", "CTS" };
         String[] ford = { "Bronco", "F-150", "Excursion" };
-        
-        
 
+        // 2. Make 2 Dimensional Array - List Data Type Of what your storing (String[]), then add all the above to one array
+        String[,] parkingLot = {{ "Silverado", "Trailblazer", "Tahoe" }, 
+                                { "Escalade", "Deville", "CTS" },
+                                { "Bronco", "F-150", "Excursion" }
+                                 };
+
+        // 3. Change the value of a items withing parkingLot by :
+        parkingLot[2, 0] = "Fusion";
+        
+        // 4. Use a foreach loop to loop through everything
+        foreach ()
+        {
+            
+        }
 
 
 
