@@ -918,15 +918,20 @@ namespace C_Sharp_Lessons
 //=======================================================================================================
         // Exception Handling - errors that occur during an execution
         
-        //TYPES OF EXCEPTIONS
+        // TYPES OF EXCEPTIONS
         
         // try = try some code that is considered "dangerous"
         // catch = catches and handles exceptions when they occur
         // finally = ALWAYS executes regardless if exception is caught or not
         
+        // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
         
-        
-    }
+        // 1. make variables needed to divide ( 2 numbers, and a variable for result)
+        double x;
+        double y;
+        double result;
+
+        }
     }
         
     }
