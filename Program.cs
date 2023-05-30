@@ -939,7 +939,8 @@ namespace C_Sharp_Lessons
         Console.WriteLine("What is Your Second Number : ");
         y = Convert.ToDouble(Console.ReadLine());
         
-        
+        // 4. State logic for dividing user numbers
+        result = x / y;
 
         }
     }
