@@ -1038,11 +1038,13 @@ namespace C_Sharp_Lessons
         // 3. Change the value of "Bronco" to "Fusion" within parkingLot by :
         parkingLot[2, 0] = "Fusion";
         
-        // 4. Use a foreach loop to loop through everything
-        foreach (String car in parkingLot)
-        {
-            Console.WriteLine(car); //returns as a list with one item per row
-        }
+        // // 4. Use a foreach loop to loop through everything
+        // foreach (String car in parkingLot)
+        // {
+        //     Console.WriteLine(car); //returns as a list with one item per row
+        // }
+        
+        // 5. Nested Loop Version
         
 
 
