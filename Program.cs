@@ -1072,7 +1072,19 @@ namespace C_Sharp_Lessons
     // 1. MAke a class Called Messages that will hold a bunch of messages that can be called later
     class Messages
     {
-        
+        // 2. Create a few methods related to messages
+        void Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+        void Waiting()
+        {
+            Console.WriteLine("You Are Waiting...");
+        }
+        void Goodbye()
+        {
+            Console.WriteLine("Goodbye!");
+        }
     }
         
     }
