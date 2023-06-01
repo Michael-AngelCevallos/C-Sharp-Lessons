@@ -1055,14 +1055,24 @@ namespace C_Sharp_Lessons
         //     Console.WriteLine();
         // }
 
-//=====================================================================================================
-        // CLASSES - bundles of related code.
-        //          Can be used as a blue print for OOP (Object Oriented Programming)
+
         
         
         
 
         }
+    }
+    
+    //====================================================================================================
+    // CLASSES - bundles of related code.
+    //          Can be used as a blue print for OOP (Object Oriented Programming)
+    
+    // IMPORTANT NEW CLASSES MUST BE MADE OUTSIDE OTHER CLASSES. IN THUIS EXAMPLE WE ARE MAKING A CLASS OUTSIDE THE MAIN CLASS
+
+    // 1. MAke a class Called Messages that will hold a bunch of messages that can be called later
+    class Messages
+    {
+        
     }
         
     }
