@@ -1024,38 +1024,42 @@ namespace C_Sharp_Lessons
  
         // MULTI-DIMENSIONAL ARRAYS - ARRAY OF ARRAYS
 
-        // 1. Make Array Variables
-        String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
-        String[] cadillac = { "Escalade", "Deville", "CTS" };
-        String[] ford = { "Bronco", "F-150", "Excursion" };
-
-        // 2. Make 2 Dimensional Array - List Data Type Of what your storing (String[]), then add all the above to one array
-        String[,] parkingLot = {{ "Silverado", "Trailblazer", "Tahoe" }, 
-                                { "Escalade", "Deville", "CTS" },
-                                { "Bronco", "F-150", "Excursion" }
-                                 };
-
-        // 3. Change the value of "Bronco" to "Fusion" within parkingLot by :
-        parkingLot[2, 0] = "Fusion";
-        
-        // // 4. Use a foreach loop to loop through everything
-        // foreach (String car in parkingLot)
+        // // 1. Make Array Variables
+        // String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
+        // String[] cadillac = { "Escalade", "Deville", "CTS" };
+        // String[] ford = { "Bronco", "F-150", "Excursion" };
+        //
+        // // 2. Make 2 Dimensional Array - List Data Type Of what your storing (String[]), then add all the above to one array
+        // String[,] parkingLot = {{ "Silverado", "Trailblazer", "Tahoe" }, 
+        //                         { "Escalade", "Deville", "CTS" },
+        //                         { "Bronco", "F-150", "Excursion" }
+        //                          };
+        //
+        // // 3. Change the value of "Bronco" to "Fusion" within parkingLot by :
+        // parkingLot[2, 0] = "Fusion";
+        //
+        // // // 4. Use a foreach loop to loop through everything
+        // // foreach (String car in parkingLot)
+        // // {
+        // //     Console.WriteLine(car); //returns as a list with one item per row
+        // // }
+        //
+        // // 5. Nested Loop Version
+        // for (int i = 0; i < parkingLot.GetLength(0); i++)
         // {
-        //     Console.WriteLine(car); //returns as a list with one item per row
+        //     for (int j = 0; j < parkingLot.GetLength(1); j++)
+        //     {
+        //         Console.WriteLine(parkingLot[i, j] + " ");
+        //     }
+        //
+        //     Console.WriteLine();
         // }
+
+//=====================================================================================================
+        // CLASSES - bundles of related code.
+        //          Can be used as a blue print for OOP (Object Oriented Programming)
         
-        // 5. Nested Loop Version
-        for (int i = 0; i < parkingLot.GetLength(0); i++)
-        {
-            for (int j = 0; j < parkingLot.GetLength(1); j++)
-            {
-                Console.WriteLine(parkingLot[i, j] + " ");
-            }
-
-            Console.WriteLine();
-        }
-
-
+        
         
 
         }
