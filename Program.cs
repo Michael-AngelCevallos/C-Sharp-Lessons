@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.Design;
 using System.Diagnostics;
+using System.Net.Security;
 using System.Threading.Channels;
 
 namespace C_Sharp_Lessons
@@ -1056,9 +1057,9 @@ namespace C_Sharp_Lessons
         // }
 
 
-        
-        
-        
+
+        Messages.Goodbye();
+
 
         }
     }
@@ -1070,24 +1071,27 @@ namespace C_Sharp_Lessons
     // IMPORTANT NEW CLASSES MUST BE MADE OUTSIDE OTHER CLASSES. IN THUIS EXAMPLE WE ARE MAKING A CLASS OUTSIDE THE MAIN CLASS
 
     // 1. MAke a class Called Messages that will hold a bunch of messages that can be called later
-    class Messages
-    {
-        // 2. Create a few methods related to messages
-        void Hello()
-        {
-            Console.WriteLine("Hello");
-        }
-        void Waiting()
-        {
-            Console.WriteLine("You Are Waiting...");
-        }
-        void Goodbye()
-        {
-            Console.WriteLine("Goodbye!");
-        }
+    // static class Messages
+    // {
+    //     // 2. Create a few methods related to messages
+    //     public static void Hello()
+    //     {
+    //         Console.WriteLine("Hello");
+    //     }
+    //     public static void Waiting()
+    //     {
+    //         Console.WriteLine("You Are Waiting...");
+    //     }
+    //     public static void Goodbye()
+    //     {
+    //         Console.WriteLine("Goodbye!");
+    //     }
+        
+        // 3. CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE
+            // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
     }
         
-    }
+    
 
     
 
