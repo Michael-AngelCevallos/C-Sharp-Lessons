@@ -1057,10 +1057,11 @@ namespace C_Sharp_Lessons
         // }
 
         
+//===================================================================================================        
         // 4. Call on messages class in main class with each method
-        Messages.Hello();
-        Messages.Waiting();
-        Messages.Goodbye();
+        // Messages.Hello();
+        // Messages.Waiting();
+        // Messages.Goodbye();
 
 
         }
