@@ -7,14 +7,24 @@ public class Human
 {
    // 2.  Make some fields - or attributes that a human would have, such as name, hair color, etc.
    // 3. Start by Making variables of these charteristics
-   private String name;
-   private int age;
+   public String name ;
+   public int age;
    
    // 4. make some methods for the human, this will declare the actions a human can do
-   void Eat()
+   public void Eat()
    {
       // 5. give this method an action when called upon in the main method
       Console.WriteLine(name + " is eating");
+   }
+
+   public void Sleep()
+   {
+      Console.WriteLine(name + " is sleeping");
+   }
+
+   public void Age()
+   {
+      Console.WriteLine(name + " is " + age + " years old");
    }
 
 
