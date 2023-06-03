@@ -1068,6 +1068,8 @@ namespace C_Sharp_Lessons
         // OBJECTS - AN INSTANCE OF A CLASS
                     // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
                     // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
+                    
+                    // Example, look around you. you are surrouded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(charateristics) and methods(actions)
         }
     }
     
