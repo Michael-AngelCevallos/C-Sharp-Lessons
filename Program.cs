@@ -1079,30 +1079,35 @@ namespace C_Sharp_Lessons
                     
                     //5. initiate a method from Human class
                         // Start By Calling The class in Upper case and then lower case. then = new Human();
-                    Human human1 = new Human();
-                    Human human2 = new Human();
-                    Human human3 = new Human();
+                    // Human human1 = new Human();
+                    // Human human2 = new Human();
+                    // Human human3 = new Human();
+                    //
+                    // // 6. give human1 a name
+                    // human1.name = "Mike";
+                    // human1.age = 29;
+                    //
+                    // human2.name = "ALex";
+                    // human2.age = 27;
+                    //
+                    // human3.name = "Roman";
+                    // human3.age = 21;
+                    //
+                    // // 7. Call the method eat from human class
+                    // // Start with naming your object name (in this case human1) then . and name of method you want to call from the human class
+                    // human1.Eat();
+                    // human1.Age();
+                    //
+                    // human2.Eat();
+                    // human2.Age();
+                    //
+                    // human3.Eat();
+                    // human3.Age();
                     
-                    // 6. give human1 a name
-                    human1.name = "Mike";
-                    human1.age = 29;
                     
-                    human2.name = "ALex";
-                    human2.age = 27;
-                    
-                    human3.name = "Roman";
-                    human3.age = 21;
-                    
-                    // 7. Call the method eat from human class
-                    // Start with naming your object name (in this case human1) then . and name of method you want to call from the human class
-                    human1.Eat();
-                    human1.Age();
-                    
-                    human2.Eat();
-                    human2.Age();
-                    
-                    human3.Eat();
-                    human3.Age();
+ //==================================================================================================         // CONSTRUCTORS - A SPECIAL METHOD WITHIN A CLASS
+            // SAME NAME AS THE CLASS NAME
+            // CAN BE USED TO ASSIGN ARGUMENTS TO FIELDS WHEN CREATING AN OBJECT
 
         }
     }
