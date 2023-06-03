@@ -1066,7 +1066,8 @@ namespace C_Sharp_Lessons
 
  //=================================================================================================
         // OBJECTS - AN INSTANCE OF A CLASS
-                    // A CLASS CAN BE 
+                    // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
+                    // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
         }
     }
     
