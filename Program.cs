@@ -1069,7 +1069,15 @@ namespace C_Sharp_Lessons
                     // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
                     // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
                     
-                    // Example, look around you. you are surrouded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(charateristics- describes what an object has) and methods(actions- what an objec t c an do) jbk
+                    // Example, look around you. you are surrounded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(characteristics- describes what an object has) and methods(actions- what an object can do).
+                    
+                    // Objective - we will be instianting human objects, but will need the help of a Human CLASS( this will be a blueprint to design fields and methods for the human objects)
+                    
+                    // ** IMPORTANT NOTE - YOU CAN MAKE THE HUMAN CLASS IN THIS SAME C FILE OR CREATE A NEW C FILE 
+                    
+                    // CLASSES MUST BE MADE OUTSIDE THE MAIN METHOD TO WORK <---------------
+                    
+                    
         }
     }
     
