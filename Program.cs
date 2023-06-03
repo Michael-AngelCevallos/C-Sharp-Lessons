@@ -1069,7 +1069,7 @@ namespace C_Sharp_Lessons
                     // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
                     // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
                     
-                    // Example, look around you. you are surrouded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(charateristics) and methods(actions)
+                    // Example, look around you. you are surrouded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(charateristics- describes what an object has) and methods(actions)
         }
     }
     
