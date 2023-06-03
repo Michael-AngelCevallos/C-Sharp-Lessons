@@ -1065,8 +1065,8 @@ namespace C_Sharp_Lessons
 
 
  //=================================================================================================
-        // OBJECTS - 
-        
+        // OBJECTS - AN INSTANCE OF A CLASS
+                    // A CLASS CAN BE 
         }
     }
     
