@@ -9,6 +9,27 @@ public class Human
    // 3. Start by Making variables of these charteristics
    public String name ;
    public int age;
+   public String ethnicity;
+   
+   
+   //2. USED FOR CONSTRUCTOR LESSON -> CREATE CONSTRUCTOR, MAKE PUBLIC SO IT CAN BE ACCESSED ANYWHERE, then call class name, parenthsis and curly brackets. (works just like a method and can even take parametrs
+   
+   // USED FOR CONSTRUCTOR LESSON -> Add parameters to constructor
+   public Human(String name, int age)
+   {
+      this.name = name;
+      this.age = age;
+   }
+   
+   public Human(String name, int age, String ethnicity)
+   {
+      this.name = name;
+      this.age = age;
+      this.ethnicity = ethnicity;
+   }
+   
+   
+   
    
    // 4. make some methods for the human, this will declare the actions a human can do
    public void Eat()

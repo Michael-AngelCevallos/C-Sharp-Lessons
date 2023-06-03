@@ -1108,6 +1108,15 @@ namespace C_Sharp_Lessons
  //==================================================================================================         // CONSTRUCTORS - A SPECIAL METHOD WITHIN A CLASS
             // SAME NAME AS THE CLASS NAME
             // CAN BE USED TO ASSIGN ARGUMENTS TO FIELDS WHEN CREATING AN OBJECT
+            
+            // 1. create a constructor within the human class ( go to c file name Human)
+            
+            
+            //2. Create initiation of Human object, Note that now since parameters were called in constructor( in human c file), they can now be stored in the instantiation 
+            
+            Human human1 = new Human("Bobby",35);
+            Human human2 = new Human("John", 32, "Mexican");
+
 
         }
     }
@@ -1116,9 +1125,9 @@ namespace C_Sharp_Lessons
     // CLASSES - bundles of related code.
     //          Can be used as a blue print for OOP (Object Oriented Programming)
     
-    // IMPORTANT NEW CLASSES MUST BE MADE OUTSIDE OTHER CLASSES. IN THUIS EXAMPLE WE ARE MAKING A CLASS OUTSIDE THE MAIN CLASS
+    // IMPORTANT NEW CLASSES MUST BE MADE OUTSIDE OTHER CLASSES. IN THIS EXAMPLE WE ARE MAKING A CLASS OUTSIDE THE MAIN CLASS
 
-    // 1. MAke a class Called Messages that will hold a bunch of messages that can be called later
+    // 1. Make a class Called Messages that will hold a bunch of messages that can be called later
     // static class Messages
     // {
     //     // 2. Create a few methods related to messages
