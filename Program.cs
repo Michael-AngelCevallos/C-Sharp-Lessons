@@ -1078,6 +1078,7 @@ namespace C_Sharp_Lessons
                     // CLASSES MUST BE MADE OUTSIDE THE MAIN METHOD TO WORK <---------------
                     
                     
+                    
         }
     }
     
@@ -1106,6 +1107,8 @@ namespace C_Sharp_Lessons
         
         // 3. CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE
             // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
+            
+            
     }
         
     
