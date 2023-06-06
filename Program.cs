@@ -882,240 +882,245 @@ namespace C_Sharp_Lessons
             //         return a * b * c;
             //     }
 
-            
- //====================================================================================================
- 
- // Param keyword -- a method parameter that takes in a variable number of arguments
-                  // - The parameter type must be single - dimensional array
-                  // ALLOWS US to call a method with various amounts of variable within ONE method  
-                  
-                  
- //===========>>   Example make an Online Store, with a Method to Checkout(Which adds customers
-                   // prices) and returns the total, then tell customer you have to pay the specific total
 
-                   //.1 Make a variable within the main  that will add all prices together
-                   // this variable will taken a method called CheckOut which we will call later
-        //            double total = CheckOut(3.99, 5.75, 15);
-        //
-        //            // 6. Lastly retutn the total to the console
-        //            Console.WriteLine(total);
-        //
-        // }
-        //
-        // // 2. Make Checkout Method With PARAMS keyword in parameter
-        // static double CheckOut(params double[] prices)
-        // {
-        //     // 3. Make a local variable to iterate through (total)
-        //     double total = 0; // starts the sequence at 0
-        //     // 4. Use foreach loop to iterate over each element in array
-        //     foreach (double price in prices)
-        //     {
-        //         total = total + price;
-        //     }
-        //
-        //     // 5. return total
-        //     return total;
-        // }
+            //====================================================================================================
+
+            // Param keyword -- a method parameter that takes in a variable number of arguments
+            // - The parameter type must be single - dimensional array
+            // ALLOWS US to call a method with various amounts of variable within ONE method  
+
+
+            //===========>>   Example make an Online Store, with a Method to Checkout(Which adds customers
+            // prices) and returns the total, then tell customer you have to pay the specific total
+
+            //.1 Make a variable within the main  that will add all prices together
+            // this variable will taken a method called CheckOut which we will call later
+            //            double total = CheckOut(3.99, 5.75, 15);
+            //
+            //            // 6. Lastly retutn the total to the console
+            //            Console.WriteLine(total);
+            //
+            // }
+            //
+            // // 2. Make Checkout Method With PARAMS keyword in parameter
+            // static double CheckOut(params double[] prices)
+            // {
+            //     // 3. Make a local variable to iterate through (total)
+            //     double total = 0; // starts the sequence at 0
+            //     // 4. Use foreach loop to iterate over each element in array
+            //     foreach (double price in prices)
+            //     {
+            //         total = total + price;
+            //     }
+            //
+            //     // 5. return total
+            //     return total;
+            // }
 //=======================================================================================================
-        // // Exception Handling - errors that occur during an execution
-        //
-        // // TYPES OF EXCEPTIONS
-        //
-        // // try = try some code that is considered "dangerous"
-        // // catch = catches and handles exceptions when they occur
-        // // finally = ALWAYS executes regardless if exception is caught or not
-        //
-        // // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
-        //
-        // // 1. make variables needed to divide ( 2 numbers, and a variable for result)
-        // int x; // takes in users first number
-        // int y; //  takes in users second number
-        // int result; // takes in answer
-        //
-        // // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
-        // try
-        // {
-        //
-        //     // 2. Start setting up for user in put for first number
-        //     Console.WriteLine("What is Your First Number: ");
-        //     x = Convert.ToInt32(Console.ReadLine()); // CONVERT TO will accept the users input as a double
-        //
-        //     // 3. Start setting up for second number
-        //     Console.WriteLine("What is Your Second Number : ");
-        //     y = Convert.ToInt32(Console.ReadLine());
-        //
-        //     // 4. State logic for dividing user numbers
-        //     result = x / y;
-        //
-        //     // 5. Return the answer to the console
-        //     Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
-        //
-        //     // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
-        // }
-        // catch (FormatException
-        //        e) // 8. write in a FormatException(throws for different data types) parameter with letter e
-        // {
-        //     Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
-        // }
-        // catch (DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
-        // {
-        //     Console.WriteLine("Cannot Divide By Zero!!");
-        // }
-        // catch (Exception e) // 11. Good practice to add a Catch All just in case we missed something
-        // {
-        //     Console.WriteLine("Something Went Wrong!");
-        // }
-        // finally // 12. Add a finally block to execute a message at the end no matter what
-        // {
-        //     Console.WriteLine("Thanks for Trying!");
-        // }
+            // // Exception Handling - errors that occur during an execution
+            //
+            // // TYPES OF EXCEPTIONS
+            //
+            // // try = try some code that is considered "dangerous"
+            // // catch = catches and handles exceptions when they occur
+            // // finally = ALWAYS executes regardless if exception is caught or not
+            //
+            // // Example- a small program where we will ask user to type in two numbers, divide those numbers, then display the result. So what if the user types in something that isn t a number?
+            //
+            // // 1. make variables needed to divide ( 2 numbers, and a variable for result)
+            // int x; // takes in users first number
+            // int y; //  takes in users second number
+            // int result; // takes in answer
+            //
+            // // 6. Start EXCEPTION HANDLING by Wrapping in a try/ catch 
+            // try
+            // {
+            //
+            //     // 2. Start setting up for user in put for first number
+            //     Console.WriteLine("What is Your First Number: ");
+            //     x = Convert.ToInt32(Console.ReadLine()); // CONVERT TO will accept the users input as a double
+            //
+            //     // 3. Start setting up for second number
+            //     Console.WriteLine("What is Your Second Number : ");
+            //     y = Convert.ToInt32(Console.ReadLine());
+            //
+            //     // 4. State logic for dividing user numbers
+            //     result = x / y;
+            //
+            //     // 5. Return the answer to the console
+            //     Console.WriteLine("Your answer for " + x + "/" + y + " is " + result);
+            //
+            //     // 7. Add a ctach that will throw a message if data type isnt correct (FormatException e)
+            // }
+            // catch (FormatException
+            //        e) // 8. write in a FormatException(throws for different data types) parameter with letter e
+            // {
+            //     Console.WriteLine("Write ONLY Numbers!!!"); // 9. return 
+            // }
+            // catch (DivideByZeroException e) // 10 . Catch a divide by Zero (WILL ONLY WORK WITH INTEGER DATA TYPE!!!!)
+            // {
+            //     Console.WriteLine("Cannot Divide By Zero!!");
+            // }
+            // catch (Exception e) // 11. Good practice to add a Catch All just in case we missed something
+            // {
+            //     Console.WriteLine("Something Went Wrong!");
+            // }
+            // finally // 12. Add a finally block to execute a message at the end no matter what
+            // {
+            //     Console.WriteLine("Thanks for Trying!");
+            // }
 
 //=====================================================================================================        
-        // // CONDITIONAL OPERATORS - USED IN CONDITIONAL ASSIGNMENT DEPENDING IF CONDITION IS TRUE/FALSE
-        //
-        // // (condition) ? x : y
-        //
-        //
-        // // 1. Make variables 
-        // double temperature = 20;
-        // // String message;
-        // //
-        // // // 2. Assign variable Message with a condition for temperature, add ?, then messages for true/false
-        // // message = (temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside";
-        // //
-        // // // 3. Added write message to variable
-        // // Console.WriteLine(message);
-        //
-        //
-        //
-        //
-        // // OPTIONAL One Liner -  can get rid of message variable and just add logic into CW
-        // Console.WriteLine((temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside");
+            // // CONDITIONAL OPERATORS - USED IN CONDITIONAL ASSIGNMENT DEPENDING IF CONDITION IS TRUE/FALSE
+            //
+            // // (condition) ? x : y
+            //
+            //
+            // // 1. Make variables 
+            // double temperature = 20;
+            // // String message;
+            // //
+            // // // 2. Assign variable Message with a condition for temperature, add ?, then messages for true/false
+            // // message = (temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside";
+            // //
+            // // // 3. Added write message to variable
+            // // Console.WriteLine(message);
+            //
+            //
+            //
+            //
+            // // OPTIONAL One Liner -  can get rid of message variable and just add logic into CW
+            // Console.WriteLine((temperature >= 15) ? "It's Warm Outside" : "It's Cold Outside");
 
- //================================================================================================
- 
-        // // STRING INTERPOLATION - ALLOWS US TO INSERT VARIABLES INTO A STRING LITERAL
-        // //                        PRECEDE STRING LITERAL WITH $
-        // //                        {} ARE PLACEHOLDERS
-        //
-        // // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
-        //
-        //
-        // // 1. Make variables for firstname, lastname and age
-        // String firstName = "Mike";
-        // String lastName = "Cevallos";
-        // int age = 29;
-        //
-        // // //  Normal Version ( WITHOUT String Literals)
-        // // Console.WriteLine("Hello " + firstName + " " + lastName + ",");
-        // // Console.WriteLine("You are " +  age + " years old.");
-        //
-        // // 2. Add String literals to message
-        // // -  Start With CW , Add $, place variables in {}
-        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age} years old!");
-        //
-        // // SIDE NOTE -  If you add a number after your variable it will add spaces in the console message 
-        // //example for age (Positive numbers move the spaces to the left) -
-        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,5} years old!");
-        //
-        // // Can also add negative number to move spaces right
-        // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,-5} years old!");
-        
- //==================================================================================================
- 
-        // MULTI-DIMENSIONAL ARRAYS - ARRAY OF ARRAYS
+            //================================================================================================
 
-        // // 1. Make Array Variables
-        // String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
-        // String[] cadillac = { "Escalade", "Deville", "CTS" };
-        // String[] ford = { "Bronco", "F-150", "Excursion" };
-        //
-        // // 2. Make 2 Dimensional Array - List Data Type Of what your storing (String[]), then add all the above to one array
-        // String[,] parkingLot = {{ "Silverado", "Trailblazer", "Tahoe" }, 
-        //                         { "Escalade", "Deville", "CTS" },
-        //                         { "Bronco", "F-150", "Excursion" }
-        //                          };
-        //
-        // // 3. Change the value of "Bronco" to "Fusion" within parkingLot by :
-        // parkingLot[2, 0] = "Fusion";
-        //
-        // // // 4. Use a foreach loop to loop through everything
-        // // foreach (String car in parkingLot)
-        // // {
-        // //     Console.WriteLine(car); //returns as a list with one item per row
-        // // }
-        //
-        // // 5. Nested Loop Version
-        // for (int i = 0; i < parkingLot.GetLength(0); i++)
-        // {
-        //     for (int j = 0; j < parkingLot.GetLength(1); j++)
-        //     {
-        //         Console.WriteLine(parkingLot[i, j] + " ");
-        //     }
-        //
-        //     Console.WriteLine();
-        // }
+            // // STRING INTERPOLATION - ALLOWS US TO INSERT VARIABLES INTO A STRING LITERAL
+            // //                        PRECEDE STRING LITERAL WITH $
+            // //                        {} ARE PLACEHOLDERS
+            //
+            // // EXAMPLE - WE HAVE THREE VARIABLES FIRSTNAME, LASTNAME, AND AGE.
+            //
+            //
+            // // 1. Make variables for firstname, lastname and age
+            // String firstName = "Mike";
+            // String lastName = "Cevallos";
+            // int age = 29;
+            //
+            // // //  Normal Version ( WITHOUT String Literals)
+            // // Console.WriteLine("Hello " + firstName + " " + lastName + ",");
+            // // Console.WriteLine("You are " +  age + " years old.");
+            //
+            // // 2. Add String literals to message
+            // // -  Start With CW , Add $, place variables in {}
+            // Console.WriteLine($"Hello {firstName} {lastName}! You are {age} years old!");
+            //
+            // // SIDE NOTE -  If you add a number after your variable it will add spaces in the console message 
+            // //example for age (Positive numbers move the spaces to the left) -
+            // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,5} years old!");
+            //
+            // // Can also add negative number to move spaces right
+            // Console.WriteLine($"Hello {firstName} {lastName}! You are {age,-5} years old!");
 
-        
+            //==================================================================================================
+
+            // MULTI-DIMENSIONAL ARRAYS - ARRAY OF ARRAYS
+
+            // // 1. Make Array Variables
+            // String[] chevy = { "Silverado", "Trailblazer", "Tahoe" };
+            // String[] cadillac = { "Escalade", "Deville", "CTS" };
+            // String[] ford = { "Bronco", "F-150", "Excursion" };
+            //
+            // // 2. Make 2 Dimensional Array - List Data Type Of what your storing (String[]), then add all the above to one array
+            // String[,] parkingLot = {{ "Silverado", "Trailblazer", "Tahoe" }, 
+            //                         { "Escalade", "Deville", "CTS" },
+            //                         { "Bronco", "F-150", "Excursion" }
+            //                          };
+            //
+            // // 3. Change the value of "Bronco" to "Fusion" within parkingLot by :
+            // parkingLot[2, 0] = "Fusion";
+            //
+            // // // 4. Use a foreach loop to loop through everything
+            // // foreach (String car in parkingLot)
+            // // {
+            // //     Console.WriteLine(car); //returns as a list with one item per row
+            // // }
+            //
+            // // 5. Nested Loop Version
+            // for (int i = 0; i < parkingLot.GetLength(0); i++)
+            // {
+            //     for (int j = 0; j < parkingLot.GetLength(1); j++)
+            //     {
+            //         Console.WriteLine(parkingLot[i, j] + " ");
+            //     }
+            //
+            //     Console.WriteLine();
+            // }
+
+
 //===================================================================================================        // PART OF CLASSES LESSON FROM BELOW
-        // 4. Call on messages class in main class with each method
-        // Messages.Hello();
-        // Messages.Waiting();
-        // Messages.Goodbye();
+            // 4. Call on messages class in main class with each method
+            // Messages.Hello();
+            // Messages.Waiting();
+            // Messages.Goodbye();
 
 
- //=================================================================================================
-        // OBJECTS - AN INSTANCE OF A CLASS
-                    // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
-                    // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
-                    
-                    // Example, look around you. you are surrounded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(characteristics- describes what an object has) and methods(actions- what an object can do).
-                    
-                    // Objective - we will be instianting human objects, but will need the help of a Human CLASS( this will be a blueprint to design fields and methods for the human objects)
-                    
-                    // ** IMPORTANT NOTE - YOU CAN MAKE THE HUMAN CLASS IN THIS SAME C FILE OR CREATE A NEW C FILE 
-                    
-                    // CLASSES MUST BE MADE OUTSIDE THE MAIN METHOD TO WORK <---------------
-                    
-                    //5. initiate a method from Human class
-                        // Start By Calling The class in Upper case and then lower case. then = new Human();
-                    // Human human1 = new Human();
-                    // Human human2 = new Human();
-                    // Human human3 = new Human();
-                    //
-                    // // 6. give human1 a name
-                    // human1.name = "Mike";
-                    // human1.age = 29;
-                    //
-                    // human2.name = "ALex";
-                    // human2.age = 27;
-                    //
-                    // human3.name = "Roman";
-                    // human3.age = 21;
-                    //
-                    // // 7. Call the method eat from human class
-                    // // Start with naming your object name (in this case human1) then . and name of method you want to call from the human class
-                    // human1.Eat();
-                    // human1.Age();
-                    //
-                    // human2.Eat();
-                    // human2.Age();
-                    //
-                    // human3.Eat();
-                    // human3.Age();
-                    
-                    
- //==================================================================================================         // CONSTRUCTORS - A SPECIAL METHOD WITHIN A CLASS
+            //=================================================================================================
+            // OBJECTS - AN INSTANCE OF A CLASS
+            // A CLASS CAN BE USED AS A BLUEPRINT TO CREATE OBJECTS (OOP)
+            // OBJECTS CAN FIELDS AND METHODS (CHARACTERISTICS AND ACTIONS)
+
+            // Example, look around you. you are surrounded by objects. Monitor, mouse , tv, printer. We can use code to mimic real world objects. The can have fields(characteristics- describes what an object has) and methods(actions- what an object can do).
+
+            // Objective - we will be instianting human objects, but will need the help of a Human CLASS( this will be a blueprint to design fields and methods for the human objects)
+
+            // ** IMPORTANT NOTE - YOU CAN MAKE THE HUMAN CLASS IN THIS SAME C FILE OR CREATE A NEW C FILE 
+
+            // CLASSES MUST BE MADE OUTSIDE THE MAIN METHOD TO WORK <---------------
+
+            //5. initiate a method from Human class
+            // Start By Calling The class in Upper case and then lower case. then = new Human();
+            // Human human1 = new Human();
+            // Human human2 = new Human();
+            // Human human3 = new Human();
+            //
+            // // 6. give human1 a name
+            // human1.name = "Mike";
+            // human1.age = 29;
+            //
+            // human2.name = "ALex";
+            // human2.age = 27;
+            //
+            // human3.name = "Roman";
+            // human3.age = 21;
+            //
+            // // 7. Call the method eat from human class
+            // // Start with naming your object name (in this case human1) then . and name of method you want to call from the human class
+            // human1.Eat();
+            // human1.Age();
+            //
+            // human2.Eat();
+            // human2.Age();
+            //
+            // human3.Eat();
+            // human3.Age();
+
+
+            //==================================================================================================         // CONSTRUCTORS - A SPECIAL METHOD WITHIN A CLASS
             // SAME NAME AS THE CLASS NAME
             // CAN BE USED TO ASSIGN ARGUMENTS TO FIELDS WHEN CREATING AN OBJECT
-            
+
             // 1. create a constructor within the human class ( go to c file name Human)
-            
-            
+
+
             //2. Create initiation of Human object, Note that now since parameters were called in constructor( in human c file), they can now be stored in the instantiation 
-            
-            Human human1 = new Human("Bobby",35);
+
+            Human human1 = new Human("Bobby", 35);
             Human human2 = new Human("John", 32, "Mexican");
+
+            CAR car1 = new CAR();
+
+            car1.Color();
+
 
 
         }
