@@ -7,16 +7,35 @@ public class CAR
     public String color;
 
 
-    public void Color()
+    public CAR(String color, int year, String model)
     {
-        color = "Blue";
-        Console.WriteLine("The Color of the car is " + color);
+        this.color = color;
+        this.model = model;
+        this.year = year;
     }
 
-    public void Model()
+    public void Car()
     {
-        model = "Chevy";
-        Console.WriteLine("The Model is a " + model);
+        Console.WriteLine("The Color of the car is " + color + ". The year of the car is " + year + ". The model of the car is " + model + ".");
+        
     }
     
+    // public void Color()
+    // {
+    //     color = "Blue";
+    //     Console.WriteLine("The Color of the car is " + color);
+    // }
+    //
+    // public void Model()
+    // {
+    //     model = "Chevy";
+    //     Console.WriteLine("The Model is a " + model);
+    // }
+    //
+    // public void Year()
+    // {
+    //     year = 2017;
+    //     Console.WriteLine("The Year of the car is " + year);
+    // }
+    //
 }

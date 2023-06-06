@@ -1117,11 +1117,13 @@ namespace C_Sharp_Lessons
             Human human1 = new Human("Bobby", 35);
             Human human2 = new Human("John", 32, "Mexican");
 
-            CAR car1 = new CAR();
+            CAR car1 = new CAR("Blue", 2017, "Chevy");
+            CAR car2 = new CAR("Orange", 2020, "Lamborghini");
 
-            car1.Color();
-            car1.Model();
-
+            car1.Car();
+            car2.Car();
+       
+            
 
 
         }
