@@ -1120,6 +1120,7 @@ namespace C_Sharp_Lessons
             CAR car1 = new CAR();
 
             car1.Color();
+            car1.Model();
 
 
 

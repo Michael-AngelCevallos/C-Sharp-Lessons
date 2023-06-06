@@ -12,6 +12,11 @@ public class CAR
         color = "Blue";
         Console.WriteLine("The Color of the car is " + color);
     }
-    
+
+    public void Model()
+    {
+        model = "Chevy";
+        Console.WriteLine("The Model is a " + model);
+    }
     
 }
