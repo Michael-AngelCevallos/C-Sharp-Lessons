@@ -1117,22 +1117,28 @@ namespace C_Sharp_Lessons
             Human human1 = new Human("Bobby", 35);
             Human human2 = new Human("John", 32, "Mexican");
 
+            human1.Sleep();
+            human2.Sleep();
+            
             CAR car1 = new CAR("Blue", 2017, "Chevy");
             CAR car2 = new CAR("Orange", 2020, "Lamborghini");
 
             car1.Car();
             car2.Car();
-       
+
             
+            
+
+          
 
 
         }
     }
-    
+
     //====================================================================================================
     // CLASSES - bundles of related code.
     //          Can be used as a blue print for OOP (Object Oriented Programming)
-    
+
     // IMPORTANT NEW CLASSES MUST BE MADE OUTSIDE OTHER CLASSES. IN THIS EXAMPLE WE ARE MAKING A CLASS OUTSIDE THE MAIN CLASS
 
     // 1. Make a class Called Messages that will hold a bunch of messages that can be called later
@@ -1151,13 +1157,17 @@ namespace C_Sharp_Lessons
     //     {
     //         Console.WriteLine("Goodbye!");
     //     }
-        
-        // 3. CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE
-            // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
-            
-            
-    }
-        
+
+    // 3. CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE
+    // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
+
+
+}
+
+
+
+
+    
     
 
     
