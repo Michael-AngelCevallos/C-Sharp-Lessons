@@ -5,7 +5,9 @@ public class CAR
     public String model;
     public int year;
     public String color;
-    private int numberOfCars;
+    
+    // 3. USED FOR STATIC LESSON - STEP 2 WILL ONLY WORK IF YOU MAKE THIS VARIABLE STATIC
+    public static int numberOfCars;
     
 
     public CAR(String color, int year, String model)

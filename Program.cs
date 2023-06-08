@@ -1114,17 +1114,17 @@ namespace C_Sharp_Lessons
 
             //2. Create initiation of Human object, Note that now since parameters were called in constructor( in human c file), they can now be stored in the instantiation 
 
-            Human human1 = new Human("Bobby", 35);
-            Human human2 = new Human("John", 32, "Mexican");
-
-            human1.Sleep();
-            human2.Sleep();
+            // Human human1 = new Human("Bobby", 35);
+            // Human human2 = new Human("John", 32, "Mexican");
+            //
+            // human1.Sleep();
+            // human2.Sleep();
             
-            CAR car1 = new CAR("Blue", 2017, "Chevy");
-            CAR car2 = new CAR("Orange", 2020, "Lamborghini");
+            // CAR car1 = new CAR("Blue", 2017, "Chevy");
+            // CAR car2 = new CAR("Orange", 2020, "Lamborghini");
 
-            car1.Car();
-            car2.Car();
+            // car1.Car();
+            // car2.Car();
 
             
  //=======================================================================================================================
@@ -1137,9 +1137,13 @@ namespace C_Sharp_Lessons
             CAR car1 = new CAR("Blue", 1964, "Impala");
             CAR car2 = new CAR("Black", 2002, "Cadillac");
 
+            // Console.WriteLine(car1.numberOfCars);
+            // Console.WriteLine(car2.numberOfCars);
 
-
-
+            
+            // 4. NOW ABOVE EXAMPLES WILL NOT WORK. YOU MUST CALL A STATIC VERSIONS (CLASS NAME + . + VARIABLE YOU WANT TO CALL)
+            Console.WriteLine(CAR.numberOfCars); // RETURNS 2
+            
 
 
         }
