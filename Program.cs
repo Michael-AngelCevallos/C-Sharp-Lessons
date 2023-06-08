@@ -1127,13 +1127,31 @@ namespace C_Sharp_Lessons
             car2.Car();
 
             
-            
+ //=======================================================================================================================
+ 
+            // STATIC - MODIFIER TO DECLARE A STATIC MEMBER, WHICH BELONGS TO THE CLASS ITSELF RATHER THAN TO ANY SPECIFIC OBJECT 
 
           
+            // 1. MAKE 2 CAR OBJECT INITIATIONS
+
+            CAR car1 = new CAR("Blue", 1964, "Impala");
+            CAR car2 = new CAR("Black", 2002, "Cadillac");
+
+
+
+
 
 
         }
     }
+    
+    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ END OF MAIN METHOD (ABOVE) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    
+    
+    
+    
+    
+    
 
     //====================================================================================================
     // CLASSES - bundles of related code.

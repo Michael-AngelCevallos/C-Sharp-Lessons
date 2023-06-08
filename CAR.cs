@@ -5,7 +5,8 @@ public class CAR
     public String model;
     public int year;
     public String color;
-
+    private int numberOfCars;
+    
 
     public CAR(String color, int year, String model)
     {
