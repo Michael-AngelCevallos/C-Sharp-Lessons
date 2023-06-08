@@ -13,6 +13,9 @@ public class CAR
         this.color = color;
         this.model = model;
         this.year = year;
+        
+        // 2. USED IN STATIC LESSON - THIS WILL ADD ANOTHER INSTIATION OF CAR OBJECT WHEN ONE IS CREATED;
+        numberOfCars++;
     }
 
     public void Car()
@@ -39,4 +42,6 @@ public class CAR
     //     Console.WriteLine("The Year of the car is " + year);
     // }
     //
+
+   
 }
