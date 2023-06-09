@@ -1154,13 +1154,15 @@ namespace C_Sharp_Lessons
             // OVERLOADED CONSTRUCTORS - TECHNIQUE TO CREATE MULTIPLE CONSTRUCTORS,
                                       // WITH A DIFFERENT SET OF PARAMETERS
                                       // NAME + PARAMETER = SIGNATURE
-                                      
-                                      
-            
-            
-            
-            
-            
+
+
+
+
+          Pizza pizza1 = new Pizza("White", "Pepporoni", true);
+
+          Console.WriteLine();
+
+
         }
     }
     
@@ -1169,12 +1171,26 @@ namespace C_Sharp_Lessons
     // 1. USED FOR OVERLOADED CONSTRUCTORS CLASS - Make a class named pizza
     class Pizza
     {
-        // Make variables for pizza class
+        // 2. Make variables for pizza class
         public String bread;
-        public String toppings;
+        public String topping;
         public bool xtraCheese;
         
-        // Make Constructor
+        // 3. Make Constructor - add parameters
+        public Pizza(String bread, String topping, bool xtraCheese)
+        {
+            this.bread = bread;
+            this.topping = topping;
+            this.xtraCheese = xtraCheese;
+        }
+        
+        // 4. lets say some one wants a pizza with no toppings, make a constructor named Pizza that does'nt take in a toppings parameter
+
+        public Pizza(String bread, bool xtraCheese)
+        {
+            this.bread = bread;
+            this.xtraCheese = xtraCheese;
+        }
 
     }
     
