@@ -10,6 +10,7 @@ public class CAR
     public static int numberOfCars;
     
 
+    // CONSTRUCTOR <------------------
     public CAR(String color, int year, String model)
     {
         this.color = color;
@@ -46,7 +47,7 @@ public class CAR
     //
 
     
-    // USED FOR STATIC LESSON - CREATE A START RACE METHOD
+    // USED FOR STATIC LESSON - CREATE A START RACE METHOD USING STATIC SO WE CAN CALL IT IN THE MAIN
 
     public static void StartRace()
     {
