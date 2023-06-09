@@ -47,7 +47,10 @@ public class CAR
 
     
     // USED FOR STATIC LESSON - CREATE A START RACE METHOD
-    
-    public static void
+
+    public static void StartRace()
+    {
+        Console.WriteLine("The race has begun!");
+    }
    
 }
