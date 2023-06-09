@@ -1151,7 +1151,16 @@ namespace C_Sharp_Lessons
             
  //======================================================================================================================
  
-            // OVERLOADED CONSTRUCTORS - 
+            // OVERLOADED CONSTRUCTORS - TECHNIQUE TO CREATE MULTIPLE CONSTRUCTORS,
+                                      // WITH A DIFFERENT SET OF PARAMETERS
+                                      // NAME + PARAMETER = SIGNATURE
+                                      
+                                      
+            
+            
+            
+            
+            
         }
     }
     
