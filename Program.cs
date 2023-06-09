@@ -1157,10 +1157,12 @@ namespace C_Sharp_Lessons
 
 
 
-
+        // 5. initiate 2 different pizza classes with different amounts of parameters
           Pizza pizza1 = new Pizza("White", "Pepporoni", true);
 
-        
+          Pizza pizza2 = new Pizza("wheat",false);
+
+        pizza1.WhatKindOfPizza();
 
 
         }
@@ -1190,6 +1192,12 @@ namespace C_Sharp_Lessons
         {
             this.bread = bread;
             this.xtraCheese = xtraCheese;
+        }
+
+        // Make a method that will return what your pizza has
+        public void WhatKindOfPizza()
+        {
+            Console.WriteLine("Your pizza has " + bread + " bread, " + topping + " for the topping, and " + xtraCheese + " for extra cheese");
         }
 
     }
