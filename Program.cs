@@ -1160,7 +1160,7 @@ namespace C_Sharp_Lessons
 
           Pizza pizza1 = new Pizza("White", "Pepporoni", true);
 
-          Console.WriteLine();
+        
 
 
         }
