@@ -1169,7 +1169,13 @@ namespace C_Sharp_Lessons
     // 1. USED FOR OVERLOADED CONSTRUCTORS CLASS - Make a class named pizza
     class Pizza
     {
+        // Make variables for pizza class
+        public String bread;
+        public String toppings;
+        public bool xtraCheese;
         
+        // Make Constructor
+
     }
     
     
