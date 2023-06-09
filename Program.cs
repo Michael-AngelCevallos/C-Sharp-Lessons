@@ -1142,6 +1142,7 @@ namespace C_Sharp_Lessons
 
             
             // 4. NOW ABOVE EXAMPLES WILL NOT WORK. YOU MUST CALL A STATIC VERSIONS (CLASS NAME + . + VARIABLE YOU WANT TO CALL)
+            
             Console.WriteLine(CAR.numberOfCars); // RETURNS 2
             
 

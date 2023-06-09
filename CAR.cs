@@ -45,5 +45,9 @@ public class CAR
     // }
     //
 
+    
+    // USED FOR STATIC LESSON - CREATE A START RACE METHOD
+    
+    public static void
    
 }
