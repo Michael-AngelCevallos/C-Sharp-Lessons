@@ -1164,6 +1164,7 @@ namespace C_Sharp_Lessons
 
         pizza1.WhatKindOfPizza();
 
+        pizza2.WhatKindOfPizza();
 
         }
     }
