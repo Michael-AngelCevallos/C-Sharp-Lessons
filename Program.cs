@@ -1145,7 +1145,8 @@ namespace C_Sharp_Lessons
             
             Console.WriteLine(CAR.numberOfCars); // RETURNS 2
             
-
+            //6 . in order to invoke StartRace method(in CAR class) start with class name(CAR) + . + name of method(StartRace)
+            CAR.StartRace();
 
         }
     }
