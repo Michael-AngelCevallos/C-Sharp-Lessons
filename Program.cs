@@ -1165,7 +1165,12 @@ namespace C_Sharp_Lessons
     }
     
     // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ END OF MAIN METHOD (ABOVE) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    
+
+    // 1. USED FOR OVERLOADED CONSTRUCTORS CLASS - Make a class named pizza
+    class Pizza
+    {
+        
+    }
     
     
     
