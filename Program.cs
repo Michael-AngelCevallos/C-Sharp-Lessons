@@ -1132,22 +1132,26 @@ namespace C_Sharp_Lessons
             // STATIC - MODIFIER TO DECLARE A STATIC MEMBER, WHICH BELONGS TO THE CLASS ITSELF RATHER THAN TO ANY SPECIFIC OBJECT 
 
           
-            // 1. MAKE 2 CAR OBJECT INITIATIONS
-
-            CAR car1 = new CAR("Blue", 1964, "Impala");
-            CAR car2 = new CAR("Black", 2002, "Cadillac");
-
-            // Console.WriteLine(car1.numberOfCars);
-            // Console.WriteLine(car2.numberOfCars);
+            // // 1. MAKE 2 CAR OBJECT INITIATIONS
+            //
+            // CAR car1 = new CAR("Blue", 1964, "Impala");
+            // CAR car2 = new CAR("Black", 2002, "Cadillac");
+            //
+            // // Console.WriteLine(car1.numberOfCars);
+            // // Console.WriteLine(car2.numberOfCars);
+            //
+            //
+            // // 4. NOW ABOVE EXAMPLES WILL NOT WORK. YOU MUST CALL A STATIC VERSIONS (CLASS NAME + . + VARIABLE YOU WANT TO CALL)
+            //
+            // Console.WriteLine(CAR.numberOfCars); // RETURNS 2
+            //
+            // //6 . in order to invoke StartRace method(in CAR class) start with class name(CAR) + . + name of method(StartRace)
+            // CAR.StartRace();
 
             
-            // 4. NOW ABOVE EXAMPLES WILL NOT WORK. YOU MUST CALL A STATIC VERSIONS (CLASS NAME + . + VARIABLE YOU WANT TO CALL)
-            
-            Console.WriteLine(CAR.numberOfCars); // RETURNS 2
-            
-            //6 . in order to invoke StartRace method(in CAR class) start with class name(CAR) + . + name of method(StartRace)
-            CAR.StartRace();
-
+ //======================================================================================================================
+ 
+            // OVERLOADED CONSTRUCTORS - 
         }
     }
     
