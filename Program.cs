@@ -1175,11 +1175,15 @@ namespace C_Sharp_Lessons
         
         // 1. create vehicle class, with one field, outside main method (located below)
         
-        
-        
-        
-        
-        
+        // 7. instiate all vehicl child classes here
+
+        Car car = new Car();
+        Bicycle bicycle = new Bicycle();
+        Boat boat = new Boat();
+
+
+
+
         }
     }
     
@@ -1291,6 +1295,8 @@ namespace C_Sharp_Lessons
             public int wheels = 0;
             
         }
+        
+        // 7. initiate the objects in the main class above 
     
 
 }
