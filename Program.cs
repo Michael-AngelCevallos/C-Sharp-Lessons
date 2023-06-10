@@ -1180,7 +1180,17 @@ namespace C_Sharp_Lessons
         Car car = new Car();
         Bicycle bicycle = new Bicycle();
         Boat boat = new Boat();
+        
+        // 8. ONCE CLASS OBJECT IS INSTIATED WE NOW CAN CALL CLASS METHODS
+        car.Go();
+        bicycle.Go();
+        boat.Go();
 
+        Console.WriteLine("The car has " + car.wheels);
+        Console.WriteLine("The bicycle has " + bicycle.wheels);
+        Console.WriteLine("The boat has " + boat.wheels);
+
+        // 9. now specify each message retured for Go method to be specific for each class, by calling same method within each class below( outside main)
 
 
 
@@ -1278,6 +1288,11 @@ namespace C_Sharp_Lessons
             // 4. add additional varibles for the car class, like umber of wheels
             public int wheels = 4; // Now all car objects will automatically have 4 wheels
             
+            // 9. 
+            public void Go()
+            {
+                Console.WriteLine("The Car is Now Moving!");
+            }
             
         }
         
@@ -1287,6 +1302,12 @@ namespace C_Sharp_Lessons
             // 6. Make a wheels variable that defines the n umber of wheels for bicycle
             public int wheels = 2;
             
+            // 9.
+            public void Go()
+            {
+                Console.WriteLine("The Bicycle is Now Moving!");
+            }
+            
         }
         
         class Boat : Vehicle
@@ -1294,6 +1315,11 @@ namespace C_Sharp_Lessons
             // 6. Make a wheels variable that defines the n umber of wheels for bicycle
             public int wheels = 0;
             
+            // 9. 
+            public void Go()
+            {
+                Console.WriteLine("The Boat is Now Moving!");
+            }
         }
         
         // 7. initiate the objects in the main class above 
