@@ -1269,10 +1269,22 @@ namespace C_Sharp_Lessons
         }
         
         // 3. WE CAN INHERIT METHODS AND VARIABLES FROM ONE CLASS TO ANOTHER BY INPUTING A ':' IN THE NEW CLASS NAME + THE INHERITED CLASS NAME
-        class Car : Vehicle
+        class Car : Vehicle // Car is the CHILD class to vehicle <------------
         {
+            // 4. add additional varibles for the car class, like umber of wheels
+            public int wheels = 4; // Now all car objects will automatically have 4 wheels
+            
             
         }
+        
+        // 5. Make a bicycle class that inherits the parent Vehicle class
+        class Bicycle : Vehicle
+        {
+            // 6. Make a wheels variable that defines the n umber of wheels for bicycle
+            public int wheels = 2;
+            
+        }
+        
     
 
 }
