@@ -1257,7 +1257,10 @@ namespace C_Sharp_Lessons
 
         public class Vehicle
         {
+            // 1. add first FIELD(A VARIABLE of any type that is declared DIRECTLY in the CLASS) to class
             public int speed = 0;
+            
+            // 2. create a method, Go,  that returns a message showing that the vehicle is going somewhere
             
         }
     
