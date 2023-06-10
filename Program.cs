@@ -1253,7 +1253,13 @@ namespace C_Sharp_Lessons
     
 //========================================================================================================================
     
-        //
+        // 1. USED FOR INHERITANCE LESSON - Make Parent Vehicle Class with one field ( TO MAKE CLASS TYPE 'PUBLIC CLASS NAME OF CLASS') NO PARENTHESIS FOR CLASS START  <------------
+
+        public class Vehicle
+        {
+            public int speed = 0;
+            
+        }
     
 
 }
