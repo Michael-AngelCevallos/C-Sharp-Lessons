@@ -1262,13 +1262,15 @@ namespace C_Sharp_Lessons
             
             // 2. create a method, Go , that returns a message showing that the vehicle is going somewhere
                     // Start a Method -  public void + name of method
-
                     public void Go()
                     {
                         Console.WriteLine("The Vehicle is Now Moving!");
                     }
-            
-            
+        }
+        
+        // 3. WE CAN INHERIT METHODS AND VARIABLES FROM ONE CLASS TO ANOTHER BY INPUTING A ':' IN THE NEW CLASS NAME + THE INHERITED CLASS NAME
+        class Car : Vehicle
+        {
             
         }
     
