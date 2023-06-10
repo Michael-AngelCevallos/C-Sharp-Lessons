@@ -1285,6 +1285,12 @@ namespace C_Sharp_Lessons
             
         }
         
+        class Boat : Vehicle
+        {
+            // 6. Make a wheels variable that defines the n umber of wheels for bicycle
+            public int wheels = 0;
+            
+        }
     
 
 }
