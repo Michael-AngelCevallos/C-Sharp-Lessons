@@ -1155,67 +1155,79 @@ namespace C_Sharp_Lessons
                                       // WITH A DIFFERENT SET OF PARAMETERS
                                       // NAME + PARAMETER = SIGNATURE
 
+        //
+        //
+        // // 5. initiate 2 different pizza classes with different amounts of parameters
+        //   Pizza pizza1 = new Pizza("White", "Pepporoni", true);
+        //
+        //   Pizza pizza2 = new Pizza("wheat",false);
+        //
+        // pizza1.WhatKindOfPizza();
+        //
+        // pizza2.WhatKindOfPizza();
 
+        
+//======================================================================================================================
 
-        // 5. initiate 2 different pizza classes with different amounts of parameters
-          Pizza pizza1 = new Pizza("White", "Pepporoni", true);
-
-          Pizza pizza2 = new Pizza("wheat",false);
-
-        pizza1.WhatKindOfPizza();
-
-        pizza2.WhatKindOfPizza();
-
+        // INHERITANCE - 1 OR MORE CHILD RECEIVING FIELDS, METHODS, ETC. FROM A COMMON PARENT
+            
+        // Example: Kind of like how we inherit certain genes from our grandparents/parents. Parent Classes can have children classes. Lets create a Vehicle Class, that is not specific but just general vehicle, with One field .
+        
+        // 1. create vehicle class, with one field, outside main method (located below)
+        
+        
+        
+        
+        
+        
         }
     }
     
     // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ END OF MAIN METHOD (ABOVE) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+    
+    
+    
+    
+    // -----> CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE OR WITHIN SAME FILE
+    // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
+    
+    
+    
+ //======================================================================================================================   
     // 1. USED FOR OVERLOADED CONSTRUCTORS CLASS - Make a class named pizza
-    class Pizza
-    {
-        // 2. Make variables for pizza class
-        public String bread;
-        public String topping;
-        public bool xtraCheese;
-        
-        // 3. Make Constructor - add parameters
-        public Pizza(String bread, String topping, bool xtraCheese)
-        {
-            this.bread = bread;
-            this.topping = topping;
-            this.xtraCheese = xtraCheese;
-        }
+    // class Pizza
+    // {
+    //     // 2. Make variables for pizza class
+    //     public String bread;
+    //     public String topping;
+    //     public bool xtraCheese;
+    //     
+    //     // 3. Make Constructor - add parameters
+    //     public Pizza(String bread, String topping, bool xtraCheese)
+    //     {
+    //         this.bread = bread;
+    //         this.topping = topping;
+    //         this.xtraCheese = xtraCheese;
+        // }
         
         // 4. lets say some one wants a pizza with no toppings, make a constructor named Pizza that does'nt take in a toppings parameter
 
-        public Pizza(String bread, bool xtraCheese)
-        {
-            this.bread = bread;
-            this.xtraCheese = xtraCheese;
-            
-        }
+        // public Pizza(String bread, bool xtraCheese)
+        // {
+        //     this.bread = bread;
+        //     this.xtraCheese = xtraCheese;
+        //     
+        // }
+        //
+        // // Make a method that will return what your pizza has
+        // public void WhatKindOfPizza()
+        // {
+        //     Console.WriteLine("Your pizza has " + bread + " bread, " + topping + " for the topping, and " + xtraCheese + " for extra cheese");
+        // }
+// }
 
-        // Make a method that will return what your pizza has
-        public void WhatKindOfPizza()
-        {
-            Console.WriteLine("Your pizza has " + bread + " bread, " + topping + " for the topping, and " + xtraCheese + " for extra cheese");
-        }
-        
-        
-//======================================================================================================================
-
-            // INHERITANCE - 1 OR MORE CHILD RECIEVING FIELDS, METHODS, ETC. FROM A COMMON PARENT
-        
-
-    }
-    
-    
-    
-    
-    
-
-    //====================================================================================================
+//====================================================================================================
     // CLASSES - bundles of related code.
     //          Can be used as a blue print for OOP (Object Oriented Programming)
 
@@ -1238,11 +1250,14 @@ namespace C_Sharp_Lessons
     //         Console.WriteLine("Goodbye!");
     //     }
 
-    // 3. CREATE A CLASS WITHIN A SEPARATE C-SHARP FILE
-    // #1 - OPEN SOLUTION EXPLORER ( GO TO VIEW, SOLUTION EXPLORER, RIGHT -CLICK ON YOUR NAMESPACE, CLICK ADD, CLICK CLASS, CLICK CLASS, NAME IT MESSAGES 
-
+    
+//========================================================================================================================
+    
+        //
+    
 
 }
+
 
 
 
