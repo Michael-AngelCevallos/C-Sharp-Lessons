@@ -1193,6 +1193,7 @@ namespace C_Sharp_Lessons
         {
             this.bread = bread;
             this.xtraCheese = xtraCheese;
+            
         }
 
         // Make a method that will return what your pizza has
@@ -1200,6 +1201,12 @@ namespace C_Sharp_Lessons
         {
             Console.WriteLine("Your pizza has " + bread + " bread, " + topping + " for the topping, and " + xtraCheese + " for extra cheese");
         }
+        
+        
+//======================================================================================================================
+
+            // INHERITANCE - 1 OR MORE CHILD RECIEVING FIELDS, METHODS, ETC. FROM A COMMON PARENT
+        
 
     }
     
