@@ -1192,6 +1192,9 @@ namespace C_Sharp_Lessons
 
         // 9. now specify each message retured for Go method to be specific for each class, by calling same method within each class below( outside main)
 
+//==========================================================================================================================================================
+        // adding project to vs code
+
 
 
         }
@@ -1326,6 +1329,7 @@ namespace C_Sharp_Lessons
     
 
 }
+
 
 
 
