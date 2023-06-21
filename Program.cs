@@ -1177,23 +1177,27 @@ namespace C_Sharp_Lessons
         
         // 7. instiate all vehicl child classes here
 
-        Car car = new Car();
-        Bicycle bicycle = new Bicycle();
-        Boat boat = new Boat();
+        // Car car = new Car();
+        // Bicycle bicycle = new Bicycle();
+        // Boat boat = new Boat();
         
-        // 8. ONCE CLASS OBJECT IS INSTIATED WE NOW CAN CALL CLASS METHODS
-        car.Go();
-        bicycle.Go();
-        boat.Go();
+        // // 8. ONCE CLASS OBJECT IS INSTIATED WE NOW CAN CALL CLASS METHODS
+        // car.Go();
+        // bicycle.Go();
+        // boat.Go();
 
-        Console.WriteLine("The car has " + car.wheels);
-        Console.WriteLine("The bicycle has " + bicycle.wheels);
-        Console.WriteLine("The boat has " + boat.wheels);
+        // Console.WriteLine("The car has " + car.wheels);
+        // Console.WriteLine("The bicycle has " + bicycle.wheels);
+        // Console.WriteLine("The boat has " + boat.wheels);
 
         // 9. now specify each message retured for Go method to be specific for each class, by calling same method within each class below( outside main)
 
 //==========================================================================================================================================================
-        // adding project to vs code
+        // Abstract Classes - MODIFIER THAT INDICATES MISSING COMPONENTS OR 
+
+
+
+
 
 
 
@@ -1272,61 +1276,66 @@ namespace C_Sharp_Lessons
     
         // 1. USED FOR INHERITANCE LESSON - Make Parent Vehicle Class with one field ( TO MAKE CLASS TYPE 'PUBLIC CLASS NAME OF CLASS') NO PARENTHESIS FOR CLASS START  <------------
 
-        public class Vehicle
-        {
-            // 1. add first FIELD(A VARIABLE of any type that is declared DIRECTLY in the CLASS) to class
-            public int speed = 0;
+        // public class Vehicle
+        // {
+        //     // 1. add first FIELD(A VARIABLE of any type that is declared DIRECTLY in the CLASS) to class
+        //     public int speed = 0;
             
-            // 2. create a method, Go , that returns a message showing that the vehicle is going somewhere
-                    // Start a Method -  public void + name of method
-                    public void Go()
-                    {
-                        Console.WriteLine("The Vehicle is Now Moving!");
-                    }
-        }
+        //     // 2. create a method, Go , that returns a message showing that the vehicle is going somewhere
+        //             // Start a Method -  public void + name of method
+        //             public void Go()
+        //             {
+        //                 Console.WriteLine("The Vehicle is Now Moving!");
+        //             }
+        // }
         
-        // 3. WE CAN INHERIT METHODS AND VARIABLES FROM ONE CLASS TO ANOTHER BY INPUTING A ':' IN THE NEW CLASS NAME + THE INHERITED CLASS NAME
-        class Car : Vehicle // Car is the CHILD class to vehicle <------------
-        {
-            // 4. add additional varibles for the car class, like umber of wheels
-            public int wheels = 4; // Now all car objects will automatically have 4 wheels
+        // // 3. WE CAN INHERIT METHODS AND VARIABLES FROM ONE CLASS TO ANOTHER BY INPUTING A ':' IN THE NEW CLASS NAME + THE INHERITED CLASS NAME
+        // class Car : Vehicle // Car is the CHILD class to vehicle <------------
+        // {
+        //     // 4. add additional varibles for the car class, like umber of wheels
+        //     public int wheels = 4; // Now all car objects will automatically have 4 wheels
             
-            // 9. 
-            public void Go()
-            {
-                Console.WriteLine("The Car is Now Moving!");
-            }
+        //     // 9. 
+        //     public void Go()
+        //     {
+        //         Console.WriteLine("The Car is Now Moving!");
+        //     }
             
-        }
+        // }
         
-        // 5. Make a bicycle class that inherits the parent Vehicle class
-        class Bicycle : Vehicle
-        {
-            // 6. Make a wheels variable that defines the n umber of wheels for bicycle
-            public int wheels = 2;
+        // // 5. Make a bicycle class that inherits the parent Vehicle class
+        // class Bicycle : Vehicle
+        // {
+        //     // 6. Make a wheels variable that defines the n umber of wheels for bicycle
+        //     public int wheels = 2;
             
-            // 9.
-            public void Go()
-            {
-                Console.WriteLine("The Bicycle is Now Moving!");
-            }
+        //     // 9.
+        //     public void Go()
+        //     {
+        //         Console.WriteLine("The Bicycle is Now Moving!");
+        //     }
             
-        }
+        // }
         
-        class Boat : Vehicle
-        {
-            // 6. Make a wheels variable that defines the n umber of wheels for bicycle
-            public int wheels = 0;
+        // class Boat : Vehicle
+        // {
+        //     // 6. Make a wheels variable that defines the n umber of wheels for bicycle
+        //     public int wheels = 0;
             
-            // 9. 
-            public void Go()
-            {
-                Console.WriteLine("The Boat is Now Moving!");
-            }
-        }
+        //     // 9. 
+        //     public void Go()
+        //     {
+        //         Console.WriteLine("The Boat is Now Moving!");
+        //     }
+        // }
         
-        // 7. initiate the objects in the main class above 
+        // // 7. initiate the objects in the main class above 
     
+//=====================================================================================================
+
+               // USED FOR ABSTRACT CLASS
+
+
 
 }
 
