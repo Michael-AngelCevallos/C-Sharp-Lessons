@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /C-Sharp-Lessons.csproj",
+      "projectUniqueName": "/Users/michael-angelcevallos/C-Sharp-Lessons/C-Sharp-Lessons.csproj",
       "projectName": "C-Sharp-Lessons",
-      "projectPath": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /C-Sharp-Lessons.csproj",
+      "projectPath": "/Users/michael-angelcevallos/C-Sharp-Lessons/C-Sharp-Lessons.csproj",
       "packagesPath": "/Users/michael-angelcevallos/.nuget/packages/",
-      "outputPath": "/Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /obj/",
+      "outputPath": "/Users/michael-angelcevallos/C-Sharp-Lessons/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michael-angelcevallos/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/michael-angelcevallos/.dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }

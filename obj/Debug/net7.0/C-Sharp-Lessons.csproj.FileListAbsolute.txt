@@ -58,3 +58,18 @@
 /Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /obj/Debug/net7.0/C-Sharp-Lessons.pdb
 /Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /obj/Debug/net7.0/C-Sharp-Lessons.genruntimeconfig.cache
 /Users/michael-angelcevallos/Desktop/C-Sharp-Lessons-Real /obj/Debug/net7.0/ref/C-Sharp-Lessons.dll
+/Users/michael-angelcevallos/C-Sharp-Lessons/bin/Debug/net7.0/C-Sharp-Lessons
+/Users/michael-angelcevallos/C-Sharp-Lessons/bin/Debug/net7.0/C-Sharp-Lessons.deps.json
+/Users/michael-angelcevallos/C-Sharp-Lessons/bin/Debug/net7.0/C-Sharp-Lessons.runtimeconfig.json
+/Users/michael-angelcevallos/C-Sharp-Lessons/bin/Debug/net7.0/C-Sharp-Lessons.dll
+/Users/michael-angelcevallos/C-Sharp-Lessons/bin/Debug/net7.0/C-Sharp-Lessons.pdb
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.csproj.AssemblyReference.cache
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.AssemblyInfoInputs.cache
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.AssemblyInfo.cs
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.csproj.CoreCompileInputs.cache
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.dll
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/refint/C-Sharp-Lessons.dll
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.pdb
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/C-Sharp-Lessons.genruntimeconfig.cache
+/Users/michael-angelcevallos/C-Sharp-Lessons/obj/Debug/net7.0/ref/C-Sharp-Lessons.dll
